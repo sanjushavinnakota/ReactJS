@@ -1,0 +1,10 @@
+
+
+.container-fluid{
+  background-color: black;
+}
+.nav-link,
+.navbar-brand,
+.navbar-menu{
+color:rgb(244, 246, 247)
+  }

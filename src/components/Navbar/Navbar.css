@@ -1,0 +1,348 @@
+*{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  
+  
+  
+  }
+  
+  .navMain{
+    width:100%;
+     height:6rem;
+     display: grid;
+     grid-template-columns: 0.5rem 1fr,1fr,1fr,1fr,4rem;
+     background-color: black;
+     position: absolute;
+    
+  }
+  .hamburger-desktop{
+    display: grid;
+  color:white;
+   grid-column: 2/3;
+   font-size:x-large;
+  align-items: center;
+  justify-content: left;
+  height:7rem;
+  }
+  
+  .logo{
+  display: grid;
+  grid-column: 3/4;
+  color: white;
+  text-align:left;
+  align-items: center;
+  justify-content: left;
+  font-size:Roboto Condensed;
+  
+  height:1.5vw;
+  
+  
+  }
+  
+  .mainMenu{
+    display: grid;
+    grid-column: 4/5;
+  }
+  .mainMenu ul{
+  
+  display: flex;
+  text-align: center;
+  align-items: center;
+  list-style-type:none;
+  justify-content: space-between;
+  
+  font-family: Roboto;
+  height:6.3rem;
+  }
+  .mainMenu ul a{
+    color: white;
+    text-decoration: none;
+  
+  }
+  .Icons{
+   
+    grid-column: 5/6;
+    display:flex;
+   gap: 10px;
+  
+  
+  
+  }
+  .Icons ul{
+  display:flex;
+  text-align: center;
+  align-items: center;
+  list-style-type:none;
+  column-gap: 1rem;
+  
+  
+  }
+  .Icons ul a{
+    color: white;
+    text-decoration: none;
+  
+  
+  }
+  .Icons .hamburger{
+   display: none;
+  
+  }
+  
+  .Search-desktop1{
+    display: grid;
+  color:white;
+  
+   font-size:x-large;
+  align-items: center;
+  justify-content: left;
+  height:6rem;
+  }
+  .CgProfile-desktop1{
+    display: grid;
+  color:white;
+  height:6rem;
+   font-size:x-large;
+  align-items: center;
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media(min-device-width: 1080px) and (max-device-width:  1024px){
+    .navMain {
+      height: 8rem;
+    
+    }
+  
+    .logo,
+    .mainMenu ul,
+    .Icons ul {
+      height: 8rem;
+     
+      
+    }
+    .Icons .hamburger{
+      display: block;
+  
+    }
+    
+   
+  }
+  
+  
+  @media (max-width: 1080px) {
+    .navMain {
+      height: 8rem;
+  
+    }
+  
+    .logo,
+    .mainMenu ul,
+    .Icons ul {
+      height: 8rem;
+    }
+    .Icons .hamburger{
+     display: grid;
+     position: absolute;
+   
+    }
+    
+  
+        .logo h3{
+          display: grid;
+         
+          font-size: smaller;
+          height: 0.8em;  
+     
+          width: 280px;
+        
+          
+  
+      
+           }
+      
+           .Icons .hamburger{
+            right:15%;
+            left:85%;
+           }
+    
+    
+  }
+  
+  /* responsive css style  */
+  @media (max-width: 998px) {
+    .navMain{
+      height: 7rem;
+      grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
+    }
+  
+    .mainMenu{
+      display: none;
+    }
+  
+    .logo,
+    .Icons ul {
+      height: 7rem;
+    }
+    .logo h3{
+     position: absolute;
+      display: grid;
+      font-size: small;
+      height: 1em; 
+      color: white;
+  
+  
+     }
+  
+    .mobile-menu-link {
+      grid-column: 2/4;
+      position: relative;
+      z-index: 99;
+    }
+    
+    .mobile-menu-link {
+      background-color: white;
+      height: 20rem;
+      display: grid;
+      grid-column: 2/5;
+      align-items: center;
+      padding-left: 3rem;
+      transition: all 2s linear;
+      transform-origin: top;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+  
+    .mobile-menu-link ul {
+      height: 20rem;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: start;
+    }
+  
+    .mobile-menu-link ul li:first-child {
+      transition-delay: 0.2s;
+    }
+  
+    .Icons {
+      grid-row: 1/2;
+      grid-column: 3/5;
+      justify-items: end;
+      align-items: center;
+      transition: all 2s linear;
+    }
+  
+    .Icons .Icons-desktop {
+      height: 0;
+      display: none;
+    }
+  
+    .Icons {
+      height: 7rem;
+      display: flex;
+      justify-self: end;
+      align-items: center;
+    }
+    .logo h3{
+      display: grid;
+      font-size: larger;
+        }
+  
+  
+    .Icons .hamburger-menu {
+      display: block;
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 798px) {
+    .navMain {
+      height: 6rem;
+     
+    }
+  
+    .logo,
+    .Icons ul {
+      height: 6rem;
+    }
+  
+    .Icons {
+      height: 6rem;
+      display: flex;
+      justify-self: end;
+      align-items: center;
+    }
+    
+        .logo h3{
+          display: grid;
+          font-size: medium;
+          position: absolute;
+          height: 0.9em;    
+          }
+      
+  
+  
+    .Icons .hamburger-menu {
+      display: block;
+      font-size: 2.5rem;
+      
+    }
+    .hamburger-desktop .hamburger-desktop1{
+      height: 0.9em;  
+    
+    }
+   
+  }
+  
+  @media (max-width: 520px) {
+    .navMain {
+      height: 6rem;
+      
+    }
+  
+    .logo,
+    .Icons ul {
+      height: 6rem;
+    }
+  
+    .logo h3{
+      position: absolute;
+      font-size: large;
+      height: 1.9em;   
+       }
+  
+    .Icons {
+      height: 6rem;
+      display: flex;
+      justify-self: end;
+      align-items: center;
+     
+    
+      
+    }
+    .Icons-desktop{
+      display: flex;
+    }
+  .Icons .hamburger{
+   right:30%;
+   left:70%;
+  
+  }
+  .hamburger-desktop .hamburger-desktop1{
+    margin-bottom: 3.5vw;
+    margin-right: 5vw;
+   
+  
+  }
+   
+  }

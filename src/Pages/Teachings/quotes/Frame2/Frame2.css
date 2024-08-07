@@ -1,0 +1,301 @@
+*{
+padding: 0%;
+margin: 0%;
+}
+
+.column img{
+  border-radius: 100%;
+margin-left: 21%;
+}
+
+.column p{
+  font-size: small;
+  font-family: Roboto
+  ;
+}
+.column{
+  background-color: 
+ rgb(250, 247, 247);
+ height:98%;
+ width:70%;
+text-align: center;
+display: grid;
+margin-left: 10%;
+border-radius: 10%;
+
+
+}
+
+
+.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ; 
+}
+@media screen and (min-width: 384px) and (max-width: 412px){
+  .column{
+    right:4%;
+   
+   }
+   .column img{
+    height:80%;
+    width:50%;
+    
+   }
+   .column p{
+     width:200px;
+   }
+  
+   
+  
+   }
+    /*mob pot*/
+    @media (max-width: 520px) {
+      .row{
+       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+      }
+     
+      .column {
+      position: relative;
+      justify-content: center;
+   
+      }
+      .column p{
+        width:280px;
+        text-align: center;
+       
+      }
+      
+
+   }
+   
+   /* mob land and tab pot */
+   @media screen and (min-device-width: 768px) 
+       and (max-device-width: 1024px) {
+       
+        .row{
+       
+          display: flex;
+  
+        }
+        .column{
+        margin-left: 30vw;
+
+        }
+        .column p{
+          width:310px;
+          text-align: center;
+        }
+    
+  }
+  @media screen and (min-device-width: 540px) 
+  and (max-device-width: 720px) {
+.row{
+   width: 105vw;
+   display: flex;
+
+}
+.column{
+  margin-left: 28vw;
+  width:50%;
+
+  }
+  .column img{
+    margin-left: 15vw;
+    width:30%;
+
+  }
+  .column p{
+    width: 280px;
+    text-align: center;
+  }
+ 
+  }
+
+  @media screen and (min-width: 800px)  and (max-width: 912px){
+  .row{
+    width: 105vw;
+    display: flex;
+ 
+ }
+ .column{
+   margin-left: 28vw;
+   width:50%;
+ 
+   }
+   .column img{
+     margin-left: 15vw;
+     width:30%;
+ 
+   }
+   .column p{
+     width: 280px;
+     text-align: center;
+   }
+  
+   }
+
+
+  @media (min-width: 360px) and (max-width: 430px) {
+    .column{
+     right:4%;
+    
+    }
+    .column img{
+     height:80%;
+     width:50%;
+     
+    }
+    .column p{
+      width:200px;
+    }
+
+  }
+  @media screen and (min-device-width: 912px) 
+       and (max-device-width: 1368px) {
+       
+        .row{
+       
+          display: flex;
+          left:10%;
+        }
+        .column{
+          width:33%;
+          margin-left:35%;
+        }
+        .column img{
+          width:35%;
+          margin-left: 31%;
+          
+        }
+    
+
+  }
+  @media (min-width: 732px) and (max-width: 768px){
+    .row{
+         width: 105vw;
+         display: flex;
+
+      
+      }
+      .column{
+        margin-left: 30vw;
+      width: 45%;
+    
+        }
+        .column img{
+          width: 30%;
+         right:15%;
+        }
+        .column p{
+          width:280px;
+     
+    
+            float: center;
+           
+          }
+         
+        }
+       
+   
+   
+     
+
+  @media (width: 1138px) {
+ .row{
+      width: 105vw;
+      display: flex;
+   
+   }
+   .column{
+     margin-left: 34vw;
+
+     }
+.column p{
+  width:280px;
+  text-align: center;
+}
+
+
+  }
+  @media (width: 1280px) {
+    .row{
+    
+         width: 105vw;
+         display: flex;
+      
+      }
+      .column{
+        overflow-x: hidden;
+        margin-left: 35vw;
+     
+      
+        }
+        .column p{
+          width:280px;
+          text-align: center;
+          
+        }
+        
+        
+
+      }
+
+
+      @media (min-width: 1366px) and (max-width: 1368px){
+        .row{
+             width: 105vw;
+             display: flex;
+          
+          }
+          .column{
+            margin-left: 35vw;
+          
+            }
+            .column p{
+              width:280px;
+              text-align: center;
+              
+            }
+    
+          }
+
+
+          @media (width: 1180px) {
+            .row{
+                 width: 105vw;
+                 display: flex;
+              
+              }
+              .column{
+                margin-left: 35vw;
+              
+                }
+                .column p{
+                  width:280px;
+                  text-align: center;
+                  
+                }
+        
+              }
+              @media (min-width: 1366px) and (max-width: 1470px){
+                .row{
+              display: grid;
+             grid-template-rows: 1fr;
+             grid-template-columns: 1fr 1fr 1fr 1fr;
+                row-gap: 10px;
+                  }
+                  .column img{
+                    width: 50%;
+                    display: grid;
+                  
+                  }
+                  .quotes{
+                    display: grid;
+                  }
+            
+                  }

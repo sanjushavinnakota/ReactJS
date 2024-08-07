@@ -1,0 +1,363 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+    }
+   
+    
+.anecdote p{
+    width:30%;
+    font-size: 1.2rem;
+}
+    
+    .anecdote button{
+        width:10%;
+        background-color: 
+        #6C3231;
+        color:white;
+
+    }
+    .anecdote img{
+        
+        height:20rem;
+        
+        
+    }
+    @media (2501px <= width <=9500px) {
+        .anecdote p{
+            width:30%;
+            font-size: 1.2rem;
+        }
+            
+            .anecdote button{
+                width:10%;
+                background-color: 
+                #6C3231;
+                color:white;
+        
+            }
+            .anecdote img{
+                float: right;
+                height:15rem;
+                margin-top: -3%;
+                
+                
+            }
+    }
+    @media (1501px <= width <=2500px) {
+        .anecdote p{
+            width:30%;
+            font-size: 1.2rem;
+        }
+            
+            .anecdote button{
+                width:10%;
+                background-color: 
+                #6C3231;
+                color:white;
+        
+            }
+            .anecdote img{
+                float: right;
+                height:20rem;
+                margin-top: -3%;
+                
+                
+            }
+    }
+    
+    @media (1150px <= width <=1500px) {
+        
+        }
+        .anecdote p{
+            width:50%;
+            font-size: 1rem;
+            text-align: left;
+        }
+            
+            .anecdote button{
+                width:10%;
+                background-color: 
+                #6C3231;
+                color:white;
+        
+            }
+            .anecdote img{
+                float: right;
+                height:15rem;
+                margin-top:-4%;
+
+                
+                
+                
+            }
+    
+    
+     
+    
+    @media (901px <= width <= 1149px) {
+        .anecdote p{
+            width:60%;
+            font-size: 1.2rem;
+            text-align: left;
+        }
+            
+            .anecdote button{
+                width:10%;
+                background-color: 
+                #6C3231;
+                color:white;
+        
+            }
+            .anecdote img{
+                float: right;
+                height:19rem;
+                margin-top:-6%;
+
+                
+                
+                
+            }
+    }
+    
+     
+            
+    
+    @media (700px <= width <= 900px) {
+    
+        .anecdote p{
+            width:58%;
+            font-size: 1rem;
+        }
+            
+            .anecdote button{
+                width:50%;
+                background-color: 
+                #6C3231;
+                color:white;
+             
+        
+            }
+            .anecdote img{
+                float: right;
+                height:18rem;
+                margin-top: -5%;
+                
+                
+                
+            }
+    }
+    
+    
+    
+    
+    @media (611px <= width <= 699px) {
+    
+        .anecdote img{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+         }
+         .anecdote h5{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+           text-align: center;
+      
+     
+         }
+         .anecdote h1{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+           text-align: center;
+         }
+     
+         .anecdote p{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 33rem;
+           text-align: center;
+          }
+         .anecdote button{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+          }
+         }
+    
+      
+       
+    
+    @media (550px <= width <= 610px) {
+        .anecdote img{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+         }
+         .anecdote h5{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+           text-align: center;
+      
+     
+         }
+         .anecdote h1{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+           text-align: center;
+         }
+     
+         .anecdote p{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 33rem;
+           text-align: center;
+          }
+         .anecdote button{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+          }
+         }
+    
+      
+       
+    
+    
+    @media (420px <= width <= 549px) {
+    
+        .anecdote img{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+         }
+         .anecdote h5{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+           text-align: center;
+      
+     
+         }
+         .anecdote h1{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+           text-align: center;
+         }
+     
+         .anecdote p{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+           text-align: center;
+          }
+         .anecdote button{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+          }
+         }
+    
+    
+    @media (341px <= width <= 419px) {
+    
+        .anecdote img{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 21rem;
+         }
+         .anecdote h5{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+           text-align: center;
+      
+     
+         }
+         .anecdote h1{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+           text-align: center;
+         }
+     
+         .anecdote p{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 21rem;
+           text-align: center;
+          }
+         .anecdote button{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+          }
+         }
+    
+     
+    
+    
+    @media (280px <= width <= 340px) {
+      
+        .anecdote img{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 17rem;
+         }
+         .anecdote h5{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 17rem;
+           text-align: center;
+      
+     
+         }
+         .anecdote h1{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 17rem;
+           text-align: center;
+         }
+     
+         .anecdote p{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 17rem;
+           text-align: center;
+          }
+         .anecdote button{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 17rem;
+          }
+         }
+    

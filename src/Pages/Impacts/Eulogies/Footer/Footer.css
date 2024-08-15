@@ -177,6 +177,14 @@ line-height:2.1vw;
   margin-left: 3px;
   
   }
+  .col1 input{
+    width:23%;
+    height:1.7rem;
+  }
+  .col1 button{
+    width:8%;
+    height:30px;
+  }
 }
 
 @media (901px <= width <= 1149px) {
@@ -199,6 +207,14 @@ line-height:2.1vw;
   text-align: center;
   margin-left: 3px;
   
+  }
+  .col1 input{
+    width:23%;
+    height:1.7rem;
+  }
+  .col1 button{
+    width:11%;
+    height:25%;
   }
 }
 
@@ -226,7 +242,14 @@ line-height:2.1vw;
   margin-left: 3px;
   
   }
-  
+  .col1 input{
+    width:40%;
+    height:1.5rem;
+  }
+  .col1 button{
+    width:11%;
+    height:30%;
+  }
   
 }
 
@@ -255,6 +278,14 @@ line-height:2.1vw;
   margin-left: 3px;
   
   }
+  .col1 input{
+    width:40%;
+    height:1.5rem;
+  }
+  .col1 button{
+    width:14%;
+    height:30%;
+  }
   
   
 }
@@ -281,6 +312,14 @@ line-height:2.1vw;
   
   margin-left: 3px;
   
+  }
+  .col1 input{
+    width:30%;
+    height:1.5rem;
+  }
+  .col1 button{
+    width:11%;
+    height:30%;
   }
   
   }
@@ -310,13 +349,21 @@ line-height:2.1vw;
   margin-left: 3px;
   
   }
-  
+  .col1 input{
+    width:40%;
+    height:1.5rem;
+  }
+  .col1 button{
+    width:17%;
+    height:30%;
+  }
   }
 @media (341px <= width <= 419px) {
 
 
   .row1{
     display: grid;
+    
   }
   
   .DownloadButton{
@@ -327,15 +374,23 @@ line-height:2.1vw;
   }
   
   .col1 .privacy{
-    width: 360px;
+    width: 21rem;
   }
   .Info{
     display: grid;
     margin-top:10vw;
   text-align: center;
-  
+  line-height: 1rem;
   margin-left: 3px;
   
+  }
+  .col1 input{
+    width:60%;
+    height:1.6rem;
+  }
+  .col1 button{
+    width:21%;
+    height:30px;
   }
   
   }
@@ -344,30 +399,41 @@ line-height:2.1vw;
 
 @media (280px <= width <= 340px) {
 
+
   .row1{
     display: grid;
+    
   }
   
   .DownloadButton{
     position: absolute;
-   right: 10vw;
+   right: 1vw;
   margin-top: 12vw;
+
     
   }
   
   .col1 .privacy{
-    width: 360px;
+    width: 17rem;
   }
   .Info{
     display: grid;
     margin-top:10vw;
   text-align: center;
-  
+  line-height: 1rem;
   margin-left: 3px;
   
   }
-  
+  .col1 input{
+    width:60%;
+    height:1.9rem;
   }
+  .col1 button{
+    width:30%;
+    height:33px;
+  }
+  
+}
 
 
 

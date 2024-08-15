@@ -5,64 +5,17 @@ import { IoHeartOutline } from "react-icons/io5";
 const Frame3 = () => {
   return (
 
-    <div>
- 
-
-
-  
-  <div class="row2">
-  <div class="column2" >
-    <img className src="./img/vrindavan.png" />
-    <h5>Episode 1 - Vrindavana</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
+    <div className="anecdote">
+        <h1>Anecdote of the day</h1>
+        <h5>July 26th,1936</h5>
+        <img src="./img/pf1.png" />
+        <p>Satsvarupa: Srila Prabhupada was attending the 1970 Ratha-yatra in San Francisco. The city extends their full cooperation by declaring July 5 to be Ratha-yatra Day in San Francisco. The day was cold and windy, and about ten thousand people had joined in Lord Jagannatha's procession through Golden Gate Park. Srila Prabhupada had danced in the street with thousands of participants during the parade, addressed a large crowd in an auditorium by the beach, and looked on as his disciples had distributed a free vegetarian prasadam feast to thousands.</p>
+       
         <button>Read more</button>
     </div>
-    <div class="column2" >
-    <img className src="./img/vrindavan.png" />
-    <h5>Episode 2 - Hrisikesh</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-        <button>Read more</button>
-    </div>
-    <div class="column2" >
-    <img className src="./img/vrindavan.png" />
-    <h5>Episode 1 - Vrindavana</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-        <button>Read more</button>
-    </div>
-    
-  </div>
 
-
-
-  <div class="row2">
-  <div class="column2" >
-   
-    <img className src="./img/vrindavan.png" />
-    <h5>Episode 1 - Vrindavana</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-        
-        <button>Read more</button>
-    </div>
-    <div class="column2" >
-    <img className src="./img/vrindavan.png" />
-    <h5>Episode 2 - Hrisikesh</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-        <button>Read more</button>
-    </div>
-    <div class="column2" >
-    <img className src="./img/vrindavan.png" />
-    <h5>Episode 1 - Vrindavana</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-        <button>Read more</button>
-    </div>
-    
-  </div>
-
-  </div>
-  
-  
-    )
-  }
-
+  )
+}
 
 export default Frame3;
+

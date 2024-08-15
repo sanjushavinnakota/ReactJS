@@ -1,0 +1,22 @@
+.video{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 5rem;
+}
+.iframe{
+    overflow: auto;
+  white-space: nowrap;
+}
+
+.video button{
+    background-color: #6C3231;
+    color: white;
+    height:3rem;
+    width:7rem;
+    font-size: medium;
+    font-family: Roboto;
+    font-weight: 400;
+}

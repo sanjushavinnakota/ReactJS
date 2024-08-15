@@ -73,6 +73,12 @@ const Footer = () => {
 </div>
 
 
+
+
+
+
+
+
   </div>
   
 )

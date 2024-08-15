@@ -1,24 +1,57 @@
-import React from 'react'
-import './Frame1.css'
-import { IoMdShare } from "react-icons/io";
-import { IoHeartOutline } from "react-icons/io5";
-const Frame1 = () => {
-  return (
+import React from 'react';
+import './Frame1.css';
+import { SlSocialInstagram } from "react-icons/sl";
+import { TiSocialYoutube } from "react-icons/ti";
+import { TiSocialTwitter } from "react-icons/ti";
+import { TiSocialPinterestCircular } from "react-icons/ti";
+import { TiSocialFacebookCircular } from "react-icons/ti";
+
+
+function Frame1() {
+
+    return (
+      <div className='body'>
+<div className="heading">
+    <p>Explore the Lila of</p>
+
+    </div> 
+    
+<div className="heading1">
+    <p><i>Srila Prabhupada</i></p>
+    
+</div>
+<div className="para">
+    <p>The International Society for Krishna Consciousness (ISKCON), founded by Srila Prabhupada, is a movement that has given thousands of its adherents a spiritual perspective on life.</p>
+
+    </div> 
+
+
+<div className='combo'>
+    <div className="button">
+  <button>Read More About Srila Prabhupada</button>
 
   
-        <div className="container-two-columns">
-<div > 
-<picture>
-    <img className="image" src="./img/disappear.png"></img>
-    </picture>
-    </div>
-    <div className="data">
-        <h1 className="heading">Prabhupada
-Disappearance Lila</h1>
-      
+
+    <div className="icons">
+   < TiSocialYoutube  />
+    <SlSocialInstagram />
+    <TiSocialTwitter/>
+    <TiSocialPinterestCircular />
+    <TiSocialFacebookCircular />
+</div>
+
     </div> 
-    </div>
+    </div> 
+  
+<div className="image">
     
-  )
-}
+<img src="./img/home.png"></img>
+    </div> 
+</div>
+
+ 
+    )
+  };
+
+
 export default Frame1;

@@ -1,0 +1,358 @@
+
+
+
+.d-para p{
+width: 55%;
+margin-left: auto;
+margin-right: auto;
+}
+
+@media (3001px <= width <=4000px) {
+
+    .d-para p{
+        width: 80%;
+       display: flex;
+    font-family: Roboto;
+    font-size: 2.1rem;
+       flex-direction: row;
+     align-items: center;
+     justify-content: center;
+    text-align: left;
+    }
+  .d-para{
+   display: flex;
+   flex-direction: row;
+   margin-top: 5%;
+   margin-bottom: 5%;
+  
+
+  }
+  .d-para h3{
+    width:6%;
+    font-size:3rem;
+    font-family: Roboto;
+    font-weight: 800;
+   margin-left: 4%;
+  
+
+       
+        }
+
+
+
+
+
+}
+
+@media (2501px <= width <=3000px) {
+
+    .d-para p{
+        width: 80%;
+       display: flex;
+    font-family: Roboto;
+    font-size: 2.1rem;
+       flex-direction: row;
+     align-items: center;
+     justify-content: center;
+    text-align: left;
+    }
+  .d-para{
+   display: flex;
+   flex-direction: row;
+   margin-top: 5%;
+   margin-bottom: 5%;
+  
+
+  }
+  .d-para h3{
+    width:6%;
+    font-size: 3.3rem;
+    font-family: Roboto;
+    font-weight: 800;
+   margin-left: 4%;
+  
+
+       
+        }
+
+
+
+}
+@media (2101px <= width <=2500px) {
+
+    .d-para p{
+        width: 70%;
+       display: flex;
+    font-family: Roboto;
+    font-size: 1.8rem;
+       flex-direction: row;
+     align-items: center;
+     justify-content: center;
+    text-align: left;
+    }
+  .d-para{
+   display: flex;
+   flex-direction: row;
+   margin-top: 5%;
+   margin-bottom: 5%;
+  
+
+  }
+  .d-para h3{
+    width:11%;
+    font-size: 3.4rem;
+    font-family: Roboto;
+    font-weight: 800;
+   margin-left: 4%;
+  
+
+       
+        }
+
+    }
+
+ 
+@media (1701px <= width <=2100px) {
+
+    .d-para p{
+        width: 80%;
+       display: flex;
+    font-family: Roboto;
+    font-size: 1.5rem;
+       flex-direction: row;
+     align-items: center;
+     justify-content: center;
+    text-align: left;
+    }
+  .d-para{
+   display: flex;
+   flex-direction: row;
+   margin-top: 5%;
+   margin-bottom: 5%;
+  
+
+  }
+  .d-para h3{
+    width:14%;
+    font-size: 3.4rem;
+    font-family: Roboto;
+    font-weight: 800;
+   margin-left: 4%;
+  
+
+       
+        }
+
+}
+@media (1501px <= width <=1700px) {
+    .d-para p{
+        width: 80%;
+       display: flex;
+    font-family: Roboto;
+    font-size: 1.5rem;
+       flex-direction: row;
+     align-items: center;
+     justify-content: center;
+    text-align: left;
+    }
+  .d-para{
+   display: flex;
+   flex-direction: row;
+   margin-top: 5%;
+   margin-bottom: 5%;
+  
+
+  }
+  .d-para h3{
+    width:18%;
+    font-size: 3.4rem;
+    font-family: Roboto;
+    font-weight: 800;
+   margin-left: 4%;
+  
+
+       
+        }
+
+
+
+    
+
+
+
+}
+
+@media (1150px <= width <=1500px) {
+     .d-para p{
+        width: 80%;
+       display: flex;
+    font-family: Roboto;
+    font-size: 1.3rem;
+       flex-direction: row;
+     align-items: center;
+     justify-content: center;
+    text-align: left;
+    }
+  .d-para{
+   display: flex;
+   flex-direction: row;
+   margin-top: 5%;
+   margin-bottom: 5%;
+  
+
+  }
+  .d-para h3{
+    width:23.4%;
+    font-size: 3rem;
+    font-family: Roboto;
+    font-weight: 800;
+   margin-left: 4%;
+  
+
+       
+        }
+      
+    }
+
+
+
+@media (901px <= width <= 1149px) {
+    .d-para p{
+        width: 88%;
+       display: flex;
+    font-family: Roboto;
+    font-size: larger;
+       flex-direction: row;
+     align-items: center;
+     justify-content: center;
+    text-align: left;
+    }
+  .d-para{
+   display: flex;
+   flex-direction: row;
+
+  }
+  .d-para h3{
+    width:34.8%;
+    font-size: 3rem;
+    font-family: Roboto;
+    font-weight: 800;
+  
+
+       
+        }
+      
+    }
+
+
+@media (700px <= width <= 900px) {
+
+    .d-para p{
+        width: 80%;
+       
+        
+        }
+        .d-para h3{
+         
+            text-align: center;
+            
+            }
+
+
+}
+
+@media (611px <= width <= 699px) {
+
+    .d-para p{
+        width: 80%;
+        text-align: center;
+        
+        }
+        .d-para h3{
+         
+            text-align: center;
+            
+            }
+
+
+
+
+
+}
+
+@media (550px <= width <= 610px) {
+
+    .d-para p{
+        width: 80%;
+        text-align: center;
+        
+        }
+        .d-para h3{
+         
+            text-align: center;
+            
+            }
+
+
+
+
+
+}
+
+@media (420px <= width <= 549px) {
+
+    .d-para p{
+        width: 80%;
+        text-align: center;
+        
+        }
+        .d-para h3{
+         
+            text-align: center;
+            
+            }
+
+
+
+
+}
+
+
+
+
+@media (341px <= width <= 419px) {
+
+
+    .d-para p{
+        width: 80%;
+        text-align: center;
+        
+        }
+        .d-para h3{
+         
+            text-align: center;
+            
+            }
+            
+
+
+
+
+}
+
+@media (280px <= width <= 340px) {
+
+    .d-para p{
+        width: 80%;
+        text-align: center;
+        
+        }
+        .d-para h3{
+         
+            text-align: center;
+            
+            }
+            
+
+}
+  

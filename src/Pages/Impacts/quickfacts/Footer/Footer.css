@@ -129,6 +129,9 @@ line-height:2.1vw;
   margin-left: 3px;
   
   }
+  .ParaName{
+    width: 30rem;
+  }
 }
 @media (1501px <= width <=3000px) {
 
@@ -151,6 +154,9 @@ line-height:2.1vw;
   text-align: center;
   margin-left: 3px;
   
+  }
+  .ParaName{
+    width: 30rem;
   }
 }
       
@@ -177,6 +183,20 @@ line-height:2.1vw;
   margin-left: 3px;
   
   }
+  .input-button input{
+    width: 180px;
+    height:30px;
+    
+   }
+  .input-button button{
+   width: 80px;
+   height:33px;
+   
+  }
+  .ParaName{
+    width: 30rem;
+  }
+ 
 }
 
 @media (901px <= width <= 1149px) {
@@ -200,6 +220,19 @@ line-height:2.1vw;
   margin-left: 3px;
   
   }
+  .input-button input{
+    width: 180px;
+    height:30px;
+    
+   }
+  .input-button button{
+   width: 80px;
+   height:33px;
+   
+  }
+  .ParaName{
+    width: 30rem;
+  }
 }
 
 
@@ -211,23 +244,33 @@ line-height:2.1vw;
   
   .DownloadButton{
     position: absolute;
-   right: 24vw;
-  margin-top: 7vw;
+   right: 28vw;
+  margin-top: 4vw;
     
   }
-  
   .col1 .privacy{
-    width: 360px;
+    width: 300px;
   }
   .Info{
-    display: grid;
+    display: flex;
     margin-top:10vw;
   text-align: center;
   margin-left: 3px;
   
   }
-  
-  
+  .input-button input{
+    width: 180px;
+    height:30px;
+    
+   }
+  .input-button button{
+   width: 80px;
+   height:33px;
+   
+  }
+  .ParaName{
+    width: 30rem;
+  }
 }
 
 
@@ -255,7 +298,22 @@ line-height:2.1vw;
   margin-left: 3px;
   
   }
-  
+  .Info p{
+    height:15px
+  }
+  .input-button input{
+    width: 180px;
+    height:30px;
+    
+   }
+  .input-button button{
+   width: 80px;
+   height:33px;
+   
+  }
+  .ParaName{
+    width: 30rem;
+  }
   
 }
 @media (550px <= width <= 610px) {
@@ -282,7 +340,23 @@ line-height:2.1vw;
   margin-left: 3px;
   
   }
-  
+  .Info p{
+    height:15px
+  }
+  .input-button input{
+    width: 180px;
+    height:30px;
+    
+   }
+  .input-button button{
+   width: 80px;
+   height:33px;
+   
+
+  }
+  .ParaName{
+    width: 30rem;
+  }
   }
 
 
@@ -309,6 +383,22 @@ line-height:2.1vw;
   
   margin-left: 3px;
   
+  }
+  .Info p{
+    height:15px
+  }
+  .input-button input{
+    width: 180px;
+    height:30px;
+    
+   }
+  .input-button button{
+   width: 80px;
+   height:33px;
+   
+  }
+  .ParaName{
+    width: 30rem;
   }
   
   }
@@ -338,35 +428,61 @@ line-height:2.1vw;
   
   }
   
+  .Info p{
+    height:15px
+  }
+  .input-button input{
+    width: 180px;
+    height:30px;
+    
+   }
+  .input-button button{
+   width: 80px;
+   height:33px;
+   
+  }
+  .ParaName{
+    width: 30rem;
+  }
   }
  
 
 
 @media (280px <= width <= 340px) {
 
+
   .row1{
     display: grid;
+    
   }
   
   .DownloadButton{
     position: absolute;
-   right: 10vw;
+   right: 1vw;
   margin-top: 12vw;
+
     
   }
   
   .col1 .privacy{
-    width: 360px;
+    width: 17rem;
   }
   .Info{
     display: grid;
     margin-top:10vw;
   text-align: center;
-  
+  line-height: 1rem;
   margin-left: 3px;
   
   }
-  
+  .col1 input{
+    width:60%;
+    height:1.9rem;
+  }
+  .col1 button{
+    width:30%;
+    height:33px;
+  }
   }
 
 

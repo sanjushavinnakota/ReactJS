@@ -1,0 +1,445 @@
+.data{
+  font-family: Playfair Display;
+  color: #FACBAF;
+
+}
+@media (7001px <= width <9999px) {
+
+  .container-two-columns{
+    background-color: black;
+    height:230rem;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 0.1fr;
+    column-gap: 10%;
+ 
+   }
+   .image{
+  width:70%;
+ float: right;
+ 
+   }
+  .data{
+   float:right;
+   color: #FACBAF;
+ 
+  } 
+  .data h1{
+   font-size: 28rem;
+   width:160rem;
+  }
+  .data p{
+ font-size: 2rem;
+ 
+  }
+  
+ }
+@media (5001px <= width <=7000px) {
+
+  .container-two-columns{
+    background-color: black;
+    height:180rem;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 0.1fr;
+    column-gap: 10%;
+ 
+   }
+   .image{
+  width:90%;
+ float: right;
+ 
+   }
+  .data{
+   float:right;
+   color: #FACBAF;
+ 
+  } 
+  .data h1{
+   font-size: 28rem;
+   width:160rem;
+  }
+  .data p{
+ font-size: 2rem;
+ 
+  }
+  
+ }
+
+
+
+
+
+
+
+@media (3001px <= width <=5000px) {
+
+  .container-two-columns{
+    background-color: black;
+    height:85rem;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 0.1fr;
+    column-gap: 10%;
+ 
+   }
+   .image{
+  width:60%;
+ float: right;
+ 
+   }
+  .data{
+   float:right;
+   color: #FACBAF;
+ 
+  } 
+  .data h1{
+   font-size: 8rem;
+   width:50rem;
+  }
+  .data p{
+ font-size: 2rem;
+ 
+  }
+  
+ }
+
+
+@media (1801px <= width <=3000px) {
+
+  .container-two-columns{
+    background-color: black;
+    height:60rem;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 0.1fr;
+    column-gap: 10%;
+ 
+   }
+   .image{
+  width:70%;
+ float: right;
+ 
+   }
+  .data{
+   float:right;
+   color: #FACBAF;
+ 
+  } 
+  .data h1{
+   font-size: 8rem;
+   width:50rem;
+  }
+  .data p{
+ font-size: 2rem;
+ 
+  }
+  
+ }
+
+
+
+
+
+
+@media (1501px <= width <=1800px) {
+
+  .container-two-columns{
+    background-color: black;
+    height:33rem;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 0.1fr;
+    column-gap: 10%;
+ 
+   }
+   .image{
+  width:64%;
+ float: right;
+ 
+   }
+  .data{
+   float:right;
+   color: #FACBAF;
+ 
+  } 
+  .data h1{
+   font-size: 6rem;
+   width:30rem;
+  }
+  .data p{
+ font-size: larger;
+ 
+  }
+  
+ }
+
+@media (1150px <= width <=1500px) {
+
+  .container-two-columns{
+   background-color: black;
+   height:33rem;
+   display: grid;
+   align-items: center; 
+   grid-template-columns: 1fr 1fr 0.1fr;
+   column-gap: 10%;
+
+  }
+  .image{
+ width:64%;
+float: right;
+
+  }
+ .data{
+  float:right;
+  color: #FACBAF;
+
+ } 
+ .data h1{
+  font-size: 6rem;
+  width:30rem;
+ }
+ .data p{
+font-size: larger;
+
+ }
+}
+@media (901px <= width <= 1149px) {
+  .container-two-columns{
+    background-color: black;
+    height:33rem;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 0.1fr;
+    column-gap: 10%;
+ 
+   }
+   .image{
+  width:21rem;
+ float: right;
+ 
+ 
+   }
+  .data{
+   float:right;
+   color: #FACBAF;
+ 
+  } 
+  .data h1{
+   font-size: 5rem;
+   width:30rem;
+  }
+  .data p{
+ font-size: larger;
+ 
+  }
+ }
+@media (700px <= width <= 900px) {
+
+  .container-two-columns{
+    background-color: black;
+    height:33rem;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 0.1fr;
+    column-gap: 10%;
+  overflow-x: hidden;
+ 
+   }
+   .image{
+  width:14rem;
+ float: right;
+ 
+ 
+   }
+  .data{
+   float:right;
+   color: #FACBAF;
+ 
+  } 
+  .data h1{
+   font-size: 5rem;
+   width:25rem;
+  }
+  .data p{
+ font-size: larger;
+ 
+  }
+ }
+@media (611px <= width <= 699px) {
+
+  .container-two-columns{
+    background-color: rgb(11, 11, 11);
+    height:39rem;
+    overflow-y: hidden;
+
+  }
+  .image{
+   width:40%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+margin-top: 19%;
+
+  }
+ .data{
+  text-align: center;
+  color: #FACBAF;
+  margin-top: 10%;
+ } 
+ .content{
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+ }
+}
+@media (550px <= width <= 610px) {
+
+  .container-two-columns{
+    background-color: rgb(11, 11, 11);
+    height:40rem;
+    overflow-y: hidden;
+
+  }
+  .image{
+   width:50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+
+  }
+ .data{
+  text-align: center;
+  color: #FACBAF;
+  margin-top: 12%;
+ } 
+ .content{
+  width:70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: small;
+
+
+
+
+ }
+}
+
+@media (420px <= width <= 549px) {
+
+  .container-two-columns{
+    background-color: rgb(11, 11, 11);
+    height:44rem;
+    overflow-y: hidden;
+
+  }
+  .image{
+   width:50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+margin-top: 40%;
+
+  }
+ .data{
+  text-align: center;
+  color: #FACBAF;
+  margin-top: 12%;
+ } 
+ .content{
+  width:70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: small;
+
+
+
+
+ }
+}
+@media (341px <= width <= 419px) {
+  *{
+    overflow-x: hidden;
+  }
+
+  .container-two-columns{
+    background-color: rgb(11, 11, 11);
+    height:35rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+  }
+  .image{
+   width:55%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+margin-top: 40%;
+
+  }
+ .data{
+  text-align: center;
+  color: #FACBAF;
+  margin-top: 12%;
+ } 
+ .content{
+  width:70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: small;
+
+
+
+
+ }
+}
+
+@media (280px <= width <= 340px) {
+  *{
+    overflow-x: hidden;
+  }
+
+  .container-two-columns{
+    background-color: rgb(11, 11, 11);
+    height:35rem;
+    overflow-y: hidden;
+  
+    
+
+  }
+  .image{
+   width:60%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+margin-top: 45%;
+
+  }
+ .data{
+  text-align: center;
+  color: #FACBAF;
+  margin-top: 10%;
+ } 
+ .content{
+  width:70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: medium;
+
+
+
+
+ }
+ .heading{
+  font-size:1.9rem;
+ }
+}

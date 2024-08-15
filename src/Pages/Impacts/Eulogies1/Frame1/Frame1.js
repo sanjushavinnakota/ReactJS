@@ -8,12 +8,12 @@ function Frame1() {
 <div className="container-two-columns">
 <div > 
 <picture>
-    <img className="image" src="./img/poetry.png"></img>
+    <img className="image" src="./img/eminity.png"></img>
     </picture>
     </div>
     <div className="data">
-        <h1 className="heading">Poetry for prabhupada</h1>
-        <p className="content"> Prabhupada’s ballads of bhakti</p>
+        <h1 className="heading">Eulogies By Eminent</h1>
+        <p className="content"> The glories of a pure devotee are inexhaustible.</p>
     </div> 
     </div>
 

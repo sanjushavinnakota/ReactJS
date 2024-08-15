@@ -1,0 +1,135 @@
+.navbar{
+  background-color:black;
+  color:white;
+  text-decoration: none;
+
+}
+.logo{
+
+font-family: Roboto Condensed;
+font-weight: 700;
+}
+
+.navlinks a{
+  text-decoration:none;
+ 
+  color: white;
+}
+
+
+
+@media (2501px <= width <=9500px) {
+  
+
+
+}
+
+
+
+@media (1501px <= width <=2500px) {
+
+
+}
+
+
+@media (1150px <= width <=1500px) {
+
+.logo{
+  margin-top: 1%;
+  
+   
+}
+.navlinks{
+  float: right;
+}
+
+}
+
+
+@media (901px <= width <= 1149px) {
+  
+}
+
+
+    
+@media (700px <= width <= 900px) {
+  
+
+      
+
+
+}
+
+
+
+@media (611px <= width <= 699px) {
+
+ 
+
+
+
+}
+ 
+
+
+
+
+@media (550px <= width <= 610px) {
+ 
+
+
+}
+ 
+
+
+
+
+
+@media (420px <= width <= 549px) {
+
+ 
+
+}
+
+@media (341px <= width <= 419px) {
+ 
+      
+
+
+}
+
+@media (280px <= width <= 340px) {
+
+  
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+       
+   
+   
+     
+
+
+       
+
+
+      
+
+         

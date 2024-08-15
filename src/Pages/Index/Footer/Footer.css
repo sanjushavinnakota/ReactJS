@@ -450,47 +450,39 @@ line-height:2.1vw;
 
 @media (280px <= width <= 340px) {
 
+
   .row1{
     display: grid;
+    
   }
   
   .DownloadButton{
     position: absolute;
    right: 1vw;
   margin-top: 12vw;
-  
+
     
   }
   
   .col1 .privacy{
-    width: 360px;
+    width: 17rem;
   }
   .Info{
     display: grid;
     margin-top:10vw;
   text-align: center;
-  
+  line-height: 1rem;
   margin-left: 3px;
   
   }
-  .Info p{
-    height:14px;
- 
+  .col1 input{
+    width:60%;
+    height:1.9rem;
   }
-  .input-button input{
-    width: 180px;
-    height:30px;
-    
-   }
-  .input-button button{
-   width: 80px;
-   height:33px;
-   
+  .col1 button{
+    width:30%;
+    height:33px;
   }
-  .ParaName{
-    width: 30rem;
-  }
-  
   }
 
 

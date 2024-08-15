@@ -1,48 +1,37 @@
-import React from 'react'
-import './Navbar.css'
-import { IoMdShare } from "react-icons/io";
-import { IoHeartOutline } from "react-icons/io5";
-import { GiHamburgerMenu } from "react-icons/gi";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import "./Navbar.css";
 import { IoIosArrowDown } from "react-icons/io";
-import { IoSearch } from "react-icons/io5";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { CiSearch } from "react-icons/ci";
 import { CgProfile } from "react-icons/cg";
 
-const Navbar = () => {
-  return (
 
-  
-        <div className="Navbar">
+function Navbar() {
+<div className="navbar">
+<div className="hamburger">
+< GiHamburgerMenu/>
+</div>
 
-          <div className=" menu">
-          <GiHamburgerMenu />
+<div className="logo">
+<h5>SRILA PRABHUPADA LILA </h5>
+</div>
+<div className="navlinks">
+<a href="#">Prabhupada’s Life <IoIosArrowDown/></a>
+<a href="#">Legacy and Impact <IoIosArrowDown/></a>
+<a href="#">Teachings and Literature <IoIosArrowDown/></a>
+<a href="#">Memories and Recollections<IoIosArrowDown/></a>
+<a href="#">Explore Archives<IoIosArrowDown/></a>
 
-          </div>
-          <div className="logo">
-          <h5>SRILA PRABHUPADA LILA</h5>
-          </div>
-          <div className="links">
-          
-          <a href='#'>Prabhupada’s Life <IoIosArrowDown /></a>
-            <a href='#'>Legacy and Impact <IoIosArrowDown /></a>
-            <a href='#'>Teachings and Literature <IoIosArrowDown /></a>
-            <a href='#'>Memories and Recollections <IoIosArrowDown /></a>
-            <a href='#'>Explore Archives <IoIosArrowDown /></a>
-          </div>
-          <div className="icons">
-              
-          <IoSearch />
-          <CgProfile />
+</div>
 
+<div className="icons">
+<CiSearch />
+<CgProfile />
+</div>
 
-          </div>
-<div > 
+  </div>
+     
+     }
 
-    </div>
-    
-      
-   
-    </div>
-    
-  )
-}
 export default Navbar;

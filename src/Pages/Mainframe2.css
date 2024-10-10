@@ -1,0 +1,27 @@
+.main-contribution h1{
+    text-align: center;
+   }
+   .main-contribution img{
+    width:90%;
+     margin-left: 5%;
+   }
+   @media (397px <= width <= 479px) {
+
+    .main-contribution{
+        margin-top: 40%;
+    }
+}
+    @media (480px <= width <= 589px) {
+
+        .main-contribution{
+            margin-top: 40%;
+        }
+    }
+   
+    @media (825px <= width <= 919px) {
+
+        .main-contribution{
+            margin-top: 5%;
+        }
+
+    }

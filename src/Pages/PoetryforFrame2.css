@@ -1,0 +1,445 @@
+.Poetryfor-card button{
+  background-color: rgb(253, 251, 251);
+  border-style: solid;
+  border-color: white;
+  height: 100%;
+  border-radius: 10px;
+}
+  
+  @media (8001px <= width <=9999px) {
+   
+  
+    
+    .Poetryfor-card {
+  
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Poetryfor-card img{
+      width: 100%;
+      
+    }
+    
+    .Poetryfor-container {
+      text-align:center;
+      height:30rem;
+      }
+      .Poetryfor-row{
+      display:flex;
+      
+      }
+      .Poetryfor-row p{
+        font-size:100px;
+      
+  
+  }
+  
+  }
+  
+  
+  
+  @media (6001px <= width <=8000px) {
+   
+    .Poetryfor-card {
+  
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Poetryfor-card img{
+      width: 100%;
+      
+    }
+    
+    .Poetryfor-container {
+    text-align:center;
+    height:30rem;
+    }
+    .Poetryfor-row{
+    display:flex;
+    
+    }
+    .Poetryfor-row p{
+      font-size:70px;
+    }
+  }
+  
+  
+  
+    
+  @media (5001px <= width <=6000px) {
+   
+    .Poetryfor-card {
+  
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Poetryfor-card img{
+      width: 100%;
+      
+    }
+    
+    .Poetryfor-container {
+    text-align:center;
+    height:19rem;
+    }
+    .Poetryfor-row{
+    display:flex;
+    
+    }
+    .Poetryfor-row p{
+      font-size:90px;
+    }
+  
+  
+  }
+  @media (4001px <= width <=5000px) {
+  
+    .Poetryfor-card {
+  
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Poetryfor-card img{
+      width: 100%;
+      
+    }
+    
+    .Poetryfor-container {
+    text-align:center;
+    height:12rem;
+    }
+    .Poetryfor-row{
+    display:flex;
+    
+    }
+    .Poetryfor-row p{
+      font-size:50px;
+    }
+  
+  
+  }
+  
+  @media (2501px <= width <=4000px) {
+    .Poetryfor-card {
+  
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Poetryfor-card img{
+      width: 100%;
+      
+    }
+    
+    .Poetryfor-container {
+    text-align:center;
+    height:5rem;
+    }
+    .Poetryfor-row{
+    display:flex;
+    
+    }
+    .Poetryfor-row p{
+      font-size:35px;
+    }
+  
+     }
+  
+  @media (1901px <= width <=2500px) {
+    .Poetryfor-card {
+  
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Poetryfor-card img{
+      width: 100%;
+      
+    }
+    
+    .Poetryfor-container {
+    text-align:center;
+    height:65px;
+    }
+    .Poetryfor-row{
+    display:flex;
+    
+    }
+   
+    .Poetryfor-row p{
+      font-size:23px;
+    }
+   
+     }
+  @media (1501px <= width <=1900px) {
+    .Poetryfor-card {
+  
+      width: 25%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Poetryfor-card img{
+      width: 100%;
+      
+    }
+    
+    .Poetryfor-container {
+    text-align:center;
+    height:90px;
+    }
+    .Poetryfor-row{
+    display:flex;
+    
+    }
+    .Poetryfor-row p{
+      font-size:21px;
+    }
+    
+     }
+    
+    @media (1150px <= width <=1500px) {
+    
+      .Poetryfor-card {
+  
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryfor-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryfor-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryfor-row{
+      display:flex;
+      
+      }
+  
+      
+    }
+    @media (901px <= width <= 1149px) {
+     
+      .Poetryfor-card {
+  
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryfor-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryfor-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryfor-row{
+      display:flex;
+      
+      }
+     
+    }
+  
+  
+  
+    @media (700px <= width <= 900px) {
+      .Poetryfor-card {
+  
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryfor-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryfor-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryfor-row{
+      display:flex;
+      margin-left: auto;
+      margin-right: auto
+      
+      }
+     
+    }
+  
+  
+    @media (611px <= width <= 699px) {
+    
+     
+      .Poetryfor-card {
+  
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryfor-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryfor-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryfor-row{
+      display:flex;
+      margin-left: auto;
+      margin-right: auto
+      
+      }
+  
+    }
+    @media (550px <= width <= 610px) {
+     
+      
+     
+      .Poetryfor-card {
+
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryfor-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryfor-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryfor-row{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+      
+      }
+     
+    }
+    
+    @media (420px <= width <= 549px) {
+     
+     
+     
+      .Poetryfor-card {
+
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryfor-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryfor-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryfor-row{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+      
+      }
+     
+    }
+    @media (341px <= width <= 419px) {
+     
+    
+      .Poetryfor-card {
+
+        width: 10%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryfor-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryfor-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryfor-row{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+      
+      }
+     
+    }
+    
+    @media (280px <= width <= 340px) {
+     
+      
+      .Poetryfor-card {
+
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryfor-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryfor-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryfor-row{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+      
+      }
+     
+    }
+    @media (162px <= width <= 279px) {
+     
+      
+      .Poetryfor-card {
+
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryfor-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryfor-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryfor-row{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+      
+      }
+     
+    }
+  

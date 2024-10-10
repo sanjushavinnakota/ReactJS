@@ -1,0 +1,730 @@
+.heading{
+
+  margin-top: 3%;
+}
+.heading button{
+  background-color: black;
+  color:white;
+
+}
+.para {
+  width:25%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+  font-family: Roboto;
+}
+.reference-para{
+  float: left;
+  width: 50%;
+}
+
+.ref-buttons{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+grid-template-columns: repeat(n, 1fr);
+    gap: 10px;
+
+  float: right;
+}
+.reference{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: gray;
+  
+  
+}
+@media (8001px <= width <=9999px) {
+ 
+  
+.heading{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+ margin-left: auto;
+ margin-right: auto;
+
+  
+}
+.heading h4 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size:70px;
+  
+  }
+  .heading button{
+    background-color: black;
+    color:white;
+    width: 3%;
+    font-size: medium;
+  }
+.para {
+  width:25%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  font-family: Roboto;
+}
+  
+  
+
+  
+
+
+}
+
+
+
+
+
+@media (6001px <= width <=8000px) {
+ 
+
+  .heading{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-left: auto;
+   margin-right: auto;
+  
+    
+  }
+  .heading h4 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size:70px;
+    
+    }
+    .heading button{
+      background-color: black;
+      color:white;
+      width: 3%;
+      font-size: medium;
+    }
+  .para {
+    width:25%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    font-family: Roboto;
+  }
+}
+
+
+
+  
+@media (5001px <= width <=6000px) {
+ 
+.heading{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+ margin-left: auto;
+ margin-right: auto;
+
+  
+}
+
+.heading h4 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size:70px;
+  
+  }
+  .heading button{
+    background-color: black;
+    color:white;
+    width: 3%;
+    font-size: medium;
+  }
+.para {
+  width:25%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  font-family: Roboto;
+}
+
+}
+@media (4001px <= width <=5000px) {
+
+ 
+.heading{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+ margin-left: auto;
+ margin-right: auto;
+
+  
+}
+.heading button{
+  background-color: black;
+  color:white;
+  width: 10%;
+  
+}
+.para {
+  width:25%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  font-family: Roboto;
+  font-size: 45px;
+}
+.image img{
+  width: 100%;
+ 
+  margin-top: 10%;
+}
+.heading h4 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size:70px;
+  
+  }
+  .heading button{
+    background-color: black;
+    color:white;
+    width: 3%;
+    font-size: medium;
+  }
+
+}
+
+@media (2501px <= width <=4000px) {
+  
+.heading{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+ margin-left: auto;
+ margin-right: auto;
+
+  
+}
+
+.heading h4 {
+margin-left: auto;
+margin-right: auto;
+font-size:70px;
+
+}
+.heading button{
+  background-color: black;
+  color:white;
+  width: 3%;
+}
+.para {
+  width:25%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  font-size: 40px;
+  font-family: Roboto;
+}
+.image img{
+  width: 100%;
+ 
+  margin-top: 10%;
+}
+.para h1{
+  font-size: 55px;
+}
+  
+   }
+
+@media (1901px <= width <=2500px) {
+ 
+  
+.heading{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+ margin-left: auto;
+ margin-right: auto;
+
+  
+}
+.heading button{
+  background-color: black;
+  color:white;
+ 
+}
+.para {
+  width:25%;
+  font-size: 23px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  font-family: Roboto;
+}
+.image img{
+  width: 100%;
+ 
+  margin-top: 10%;
+}
+.heading button{
+  width: 4%;
+
+}
+.heading h4 {
+margin-left: auto;
+margin-right: auto;
+
+}
+ 
+   }
+@media (1501px <= width <=1900px) {
+  .heading{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-left: auto;
+   margin-right: auto;
+  
+    
+  }
+  .heading button{
+    width: 4%;
+  
+  }
+  .heading h4 {
+  margin-left: auto;
+  margin-right: auto;
+  
+  }
+  .para {
+    width:50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+    font-family: Roboto;
+    font-size: large;
+  }
+  .image img{
+    width: 100%;
+   
+    margin-top: 10%;
+  }
+   }
+  
+  @media (1150px <= width <=1500px) {
+  
+   
+    
+.heading{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+ margin-left: auto;
+ margin-right: auto;
+
+  
+}
+.heading button{
+  width: 4%;
+
+}
+.heading h4 {
+margin-left: auto;
+margin-right: auto;
+
+}
+.para {
+  width:50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
+
+  font-family: Roboto;
+  font-size: large;
+}
+.image img{
+  width: 100%;
+  margin-top: 10%;
+}
+.reference-para{
+  float: left;
+}
+
+.reference{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+    
+    
+  }
+  @media (901px <= width <= 1149px) {
+   
+    .para{
+      width:80%;
+    
+    }
+        
+.heading{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+ margin-left: auto;
+ margin-right: auto;
+
+  
+}
+.heading button{
+  width: 4%;
+
+}
+.heading h4 {
+margin-left: auto;
+margin-right: auto;
+font-size:30px;
+
+
+}
+   
+    
+   
+    .image img{
+      width: 100%;
+      height:40%;
+      margin-top: 10%;
+    }
+    .heading button{
+      width: 10%;
+      column-gap: 50%;
+     
+ 
+    }
+    .ref-buttons{
+width: 90%;
+
+    }
+   
+  }
+
+
+
+  @media (700px <= width <= 900px) {
+  
+    .para{
+      width:80%;
+    
+    }
+        
+.heading{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+ margin-left: auto;
+ margin-right: auto;
+
+  
+}
+.heading button{
+  width: 10%;
+
+}
+.heading h4 {
+margin-left: auto;
+margin-right: auto;
+
+}
+   .reference{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+   }
+    .image img{
+      width: 100%;
+    }
+    .ref-buttons{
+      width: 40rem;
+      
+          }
+  
+  }
+
+
+  @media (611px <= width <= 699px) {
+  
+    .para{
+      width:80%;
+    
+    }
+    .heading{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+     margin-left: auto;
+     margin-right: auto;
+    
+      
+    }
+    .heading button{
+      width: 10%;
+    
+    }
+    .heading h4 {
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+
+ 
+ .para h1{
+  font-size: 21px;
+  font-weight: 500;
+}
+.image img{
+width: 100%;
+
+}
+.reference{
+  display: flex;
+  flex-direction:column;
+}
+   .reference-para{
+width: 100%;
+text-align: center;
+   }
+   .ref-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+   }
+   
+
+  }
+  @media (550px <= width <= 610px) {
+   
+    .para{
+      width:80%;
+    
+    }
+    .heading{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+     margin-left: auto;
+     margin-right: auto;
+    
+      
+    }
+    .heading button{
+      width: 10%;
+    
+    }
+    .heading h4 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 19px;
+    
+    }
+
+ 
+ .para h1{
+  font-size: 21px;
+  font-weight: 500;
+}
+.image img{
+width: 100%;
+
+}
+.reference{
+  display: flex;
+  flex-direction:column;
+}
+   .reference-para{
+width: 100%;
+text-align: center;
+   }
+   .ref-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+   }
+   
+  }
+  
+  @media (420px <= width <= 549px) {
+    .para{
+      width:80%;
+    
+    }
+   .heading{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+  
+}
+.heading button{
+  width: 15%;
+
+}
+.heading h4 {
+margin-left: auto;
+margin-right: auto;
+font-size: 14px;
+text-align: center;
+}
+ 
+ .para h1{
+  font-size: 19px;
+  font-weight: 500;
+}
+.image img{
+width: 100%;
+
+}
+.reference{
+  display: flex;
+  flex-direction:column;
+}
+   .reference-para{
+width: 80%;
+text-align: center;
+   }
+   .ref-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+   }
+   
+   
+  }
+  @media (341px <= width <= 419px) {
+    .para{
+      width:80%;
+    
+    }
+    .heading{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+     margin-left: auto;
+     margin-right: auto;
+    
+      
+    }
+    .heading button{
+      width: 15%;
+    
+    }
+    .heading h4 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    text-align: center;
+    
+    }
+
+ 
+ .para h1{
+  font-size: 21px;
+  font-weight: 500;
+}
+.image img{
+width: 100%;
+
+}
+.reference{
+  display: flex;
+  flex-direction:column;
+}
+   .reference-para{
+width: 80%;
+text-align: center;
+   }
+   .ref-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+   }
+   
+  }
+  
+  @media (280px <= width <= 340px) {
+    .para{
+      width:80%;
+    
+    }
+    .heading{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+     margin-left: auto;
+     margin-right: auto;
+    
+      
+    }
+    .heading button{
+      width: 25%;
+    
+    }
+    .heading h4 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    }
+ .para h1{
+  font-size: 21px;
+  font-weight: 500;
+}
+.image img{
+width: 100%;
+
+}
+.reference{
+  display: flex;
+  flex-direction:column;
+}
+   .reference-para{
+width: 100%;
+text-align: center;
+   }
+   .ref-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+   }
+   
+  }
+  

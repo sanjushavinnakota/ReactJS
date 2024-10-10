@@ -1,0 +1,379 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+    }
+    
+   
+    
+    .Dmain-column2 p{
+      font-size: small;
+      font-family: Roboto;
+      
+    }
+    .Dmain-column2{
+      background-color: 
+    white;
+ 
+     width:70%;
+    text-align: center;
+    height:max-content;
+ 
+   border-radius: 1%;
+   border-style: solid;
+   border-color:black;
+  
+    
+    
+    }
+    .quotes{
+      display: grid;
+    }
+    .Dmain-row2 a:link { 
+      text-decoration: none; 
+      color:white;
+    }
+    .Dmain-column2 button{
+      background-color:rgba(108, 50, 49, 1);
+      width:100%;
+      height: 10%;
+      border-radius: 1%;
+      color: white;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+    }
+    
+    .Dmain-column2 img{
+      width:100%;
+ 
+    }
+    
+     
+    @media (3001px <= width <=4000px) {
+    
+      .Dmain-row2{
+        display: grid;
+       grid-template-rows: 70em;
+       grid-template-columns: 5fr 5fr 5fr ;
+     
+       
+      
+       
+            }
+            
+        .Dmain-column2{
+         display:block;
+         margin-left: auto;
+         margin-right: auto;
+        }
+      }
+
+    
+    
+    @media (2501px <= width <=3000px) {
+    
+      .Dmain-row2{
+        display: grid;
+       grid-template-rows: 55em;
+       grid-template-columns: 5fr 5fr 5fr ;
+     
+       
+      
+       
+            }
+            
+        .Dmain-column2{
+         display:block;
+         margin-left: auto;
+         margin-right: auto;
+        }
+      }
+
+
+            @media (2101px <= width <=2500px) {
+    
+              .Dmain-row2{
+               display: grid;
+              grid-template-rows: 48em;
+              grid-template-columns: 5fr 5fr 5fr ;
+            
+              
+             
+              
+                   }
+                   
+               .Dmain-column2{
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+               }
+                          
+                  
+             
+                 }
+
+            
+            @media (1701px <= width <=2100px) {
+    
+              .Dmain-row2{
+               display: grid;
+              grid-template-rows: 42em;
+              grid-template-columns: 5fr 5fr 5fr ;
+            
+              
+             
+              
+                   }
+                   
+               .Dmain-column2{
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+               }
+                          
+                  
+             
+                 }
+                   
+    
+    
+    
+    @media (1501px <= width <=1700px) {
+    
+       .Dmain-row2{
+        display: grid;
+       grid-template-rows: 35em;
+       grid-template-columns: 5fr 5fr 5fr ;
+     
+       
+      
+       
+            }
+            
+        .Dmain-column2{
+         display:block;
+         margin-left: auto;
+         margin-right: auto;
+        }
+                   
+           
+      
+          }
+            
+    
+    @media (1150px <= width <=1500px) {
+    
+      .Dmain-row2{
+        display: grid;
+       grid-template-rows: 33em;
+       grid-template-columns: 5fr 5fr 5fr ;
+       
+      
+       
+            }
+            
+        .Dmain-column2{
+         display:block;
+         margin-left: auto;
+         margin-right: auto;
+        }
+                   
+           
+      
+          }
+            
+          
+    
+    @media (901px <= width <= 1149px) {
+      .Dmain-row2{
+        display: grid;
+       grid-template-rows: 33em;
+       grid-template-columns: 5fr 5fr 5fr ;
+       
+      
+       
+            }
+            
+        .Dmain-column2{
+         display:block;
+         margin-left: auto;
+         margin-right: auto;
+        }
+                   
+           
+      
+      }
+    
+    
+    @media (700px <= width <= 900px) {
+    
+      .Dmain-row2{
+        display: grid;
+       grid-template-rows: 33em;
+       grid-template-columns: 5fr 5fr 5fr ;
+       
+      
+       
+            }
+            
+        .Dmain-column2{
+         display:block;
+         margin-left: auto;
+         margin-right: auto;
+   
+        }
+                   
+           
+                   
+           
+      
+          }
+      
+       
+    
+    
+    
+    @media (611px <= width <= 699px) {
+    
+      .Dmain-row2{
+        background-size: cover;
+        display: flex;
+       flex-direction: column;
+       row-gap: 1em;
+       
+     
+     }
+     .Dmain-column2{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        
+          
+          
+     
+       }
+       .Dmain-column2 img{
+        height:15rem;
+       }
+       
+       
+       
+      
+       }
+    
+    
+    @media (550px <= width <= 610px) {
+    
+      .Dmain-row2{
+        background-size: cover;
+        display: flex;
+       flex-direction: column;
+       row-gap: 1em;
+       
+     
+     }
+     .Dmain-column2{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        
+          
+          
+     
+       }
+       .Dmain-column2 img{
+        height:15rem;
+       }
+       
+       
+       
+      
+      }
+    
+    
+    @media (420px <= width <= 549px) {
+    
+      .Dmain-row2{
+        background-size: cover;
+        display: flex;
+       flex-direction: column;
+       row-gap: 1em;
+       
+     
+     }
+     .Dmain-column2{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        
+          
+          
+     
+       }
+       .Dmain-column2 img{
+        height:15rem;
+       }
+       
+       
+       
+      
+       }
+    
+    @media (341px <= width <= 419px) {
+    
+      .Dmain-row2{
+        background-size: cover;
+        display: flex;
+       flex-direction: column;
+       row-gap: 1em;
+       
+     
+     }
+     .Dmain-column2{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        
+          
+          
+     
+       }
+       .Dmain-column2 img{
+        height:15rem;
+       }
+       
+       
+       
+      
+      }
+     
+    
+    
+    @media (280px <= width <= 340px) {
+    
+      .Dmain-row2{
+        background-size: cover;
+        display: flex;
+       flex-direction: column;
+       row-gap: 1em;
+       
+     
+     }
+     .Dmain-column2{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        
+          
+          
+     
+       }
+       .Dmain-column2 img{
+        height:15rem;
+       }
+       
+       
+       
+  
+      }

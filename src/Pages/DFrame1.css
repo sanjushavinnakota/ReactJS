@@ -1,0 +1,564 @@
+*{
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+  }
+  .Disappear-data h1{
+    font-family :Playfair Display;
+  
+  }
+.Disappear-data  p{
+  color: #FACBAF ;
+}
+
+  @media (8001px <= width <=9999px) {
+  
+    .Disappear-container-two-columns{
+      background-color: black;
+      height:230rem;
+      display: grid;
+      align-items: center; 
+     
+      grid-template-columns:  1fr 1fr;
+      
+   
+     }
+     .Disappear-image{
+    width:30%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+     }
+     .Disappear-data h1{
+       font-size: 30rem;
+       color: #FACBAF;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+      
+       
+       
+  
+     }.Disappear-data p{
+      font-size: 7rem;
+     }
+     }
+  
+
+  @media (6001px <= width <=8000px) {
+  
+    .Disappear-container-two-columns{
+      background-color: black;
+      height:160rem;
+      display: grid;
+      align-items: center; 
+     
+      grid-template-columns:  1fr 1fr;
+      
+   
+     }
+     .Disappear-image{
+    width:40%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+     }
+     .Disappear-data h1{
+       font-size: 21rem;
+       color: #FACBAF;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+      
+     }
+  .Disappear-data p{
+      font-size: 7rem;
+     }
+     }
+  
+  @media (5001px <= width <=6000px) {
+  
+    .Disappear-container-two-columns{
+      background-color: black;
+      height:140rem;
+      display: grid;
+      align-items: center; 
+     
+      grid-template-columns:  1fr 1fr;
+      
+   
+     }
+     .Disappear-image{
+    width:30%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+     }
+     .Disappear-data h1{
+       font-size: 14rem;
+       color: #FACBAF;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+     }
+     .Disappear-data p{
+      font-size: 1rem;
+     }
+     }
+  
+  
+  @media (4001px <= width <=5000px) {
+  
+    .Disappear-container-two-columns{
+      background-color: black;
+      height:140rem;
+      display: grid;
+      align-items: center; 
+     
+      grid-template-columns:  1fr 1fr;
+      
+   
+     }
+     .Disappear-image{
+    width:45%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+     }
+     .Disappear-data h1{
+       font-size: 15rem;
+       color: #FACBAF;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+     }
+     .Disappear-data p{
+      font-size: 3rem;
+     }
+     }
+  
+  
+  @media (2501px <= width <=4000px) {
+  
+    .Disappear-container-two-columns{
+      background-color: black;
+      height:100rem;
+      display: grid;
+      align-items: center; 
+   
+      grid-template-columns:  1fr 1fr;
+      
+   
+     }
+     .Disappear-image{
+    width:40%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+     }
+     .Disappear-data h1{
+       font-size: 15rem;
+       color: #FACBAF;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+     }
+     .Disappear-data p{
+      font-size: 3rem;
+     }
+     }
+  
+  @media (1901px <= width <=2500px) {
+  
+    .Disappear-container-two-columns{
+      background-color: black;
+      height:90rem;
+      display: grid;
+      align-items: center; 
+     
+      grid-template-columns:  1fr 1fr;
+      
+   
+     }
+     .Disappear-image{
+    width:45%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+     }
+     .Disappear-data h1{
+       font-size: 8.5rem;
+       color: #FACBAF;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+      
+     }
+     .Disappear-data p{
+        font-size:larger;
+     }
+     }
+  @media (1501px <= width <=1900px) {
+  
+    .Disappear-container-two-columns{
+      background-color: black;
+      height:33rem;
+      display: grid;
+      align-items: center; 
+     
+      grid-template-columns:  1fr 1fr;
+      
+   
+     }
+     .Disappear-image{
+    width:40%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+     }
+     .Disappear-data h1{
+       font-size: 5.5rem;
+       color: #FACBAF;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+      
+       
+       
+  
+     }
+     }
+    
+    @media (1150px <= width <=1500px) {
+    
+      .Disappear-container-two-columns{
+       background-color: black;
+       height:33rem;
+       display: grid;
+       align-items: center; 
+      
+       grid-template-columns:  1fr 1fr;
+       
+    
+      }
+      .Disappear-image{
+     width:45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+      }
+      .Disappear-data h1{
+        font-size: 5rem;
+        
+        color: #FACBAF;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
+        
+        
+   
+      }
+  
+     
+    }
+    @media (901px <= width <= 1149px) {
+      .Disappear-container-two-columns{
+        background-color: black;
+        height:33rem;
+        display: grid;
+        align-items: center; 
+       
+        grid-template-columns:  1fr 1fr;
+        
+     
+       }
+       .Disappear-image{
+      width:16rem;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     
+     
+       }
+       .Disappear-data h1{
+         font-size: 5rem;
+         color: #FACBAF;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+        
+         
+         
+    
+       }
+   
+    
+    }
+  
+  
+  
+    @media (700px <= width <= 900px) {
+    
+      .Disappear-container-two-columns{
+        background-color: black;
+        height:33rem;
+        display: grid;
+        align-items: center; 
+       
+        grid-template-columns:  1fr 1fr;
+        
+     
+       }
+       .Disappear-image{
+      width:16rem;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     
+     
+       }
+       .Disappear-data h1{
+         font-size: 3.7rem;
+         color: #FACBAF;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+        
+         
+         
+    
+       }
+   
+    
+    }
+  
+  
+    @media (611px <= width <= 699px) {
+    
+      .Disappear-container-two-columns{
+        background-color: rgb(11, 11, 11);
+        height:49rem;
+    
+      }
+      .Disappear-image{
+       width:40%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    margin-top: 19%;
+    
+      }
+     .Disappear-data{
+      text-align: center;
+      color: #FACBAF;
+      margin-top: 10%;
+     } 
+     .content{
+      width:50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    
+    
+    
+     }
+     .Disappear-data h1{
+      font-size: rem;
+      color: #FACBAF;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+     }
+     .Disappear-data h1{
+      font-size:3.5rem;
+      
+    }
+
+    }
+    @media (550px <= width <= 610px) {
+    
+      .Disappear-container-two-columns{
+        background-color: rgb(11, 11, 11);
+        height:44rem;
+    
+      }
+      .Disappear-image{
+       width:40%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    margin-top: 19%;
+    
+      }
+     .Disappear-data{
+      text-align: center;
+      color: #FACBAF;
+      margin-top: 10%;
+     } 
+     .content{
+      width:50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    
+    
+    
+     }
+     .Disappear-data h1{
+      font-size:3.5rem;
+      text-align: center;
+      justify-content: center;
+    
+      
+      
+     }
+    }
+    
+    @media (420px <= width <= 549px) {
+    
+      .Disappear-container-two-columns{
+        background-color: rgb(11, 11, 11);
+        height:35rem;
+    
+      }
+      .Disappear-image{
+       width:15rem;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 10%;
+       
+    
+      }
+     .Disappear-data {
+      text-align: center;
+      color: #FACBAF;
+    
+    
+      
+     } 
+     .Disappear-data p{
+      font-size: 12px;
+    
+    
+      
+     }
+     .Disappear-data h1{
+      font-size:3.5rem;
+      text-align: center;
+      justify-content: center;
+    
+      
+     
+    }
+  }
+    @media (341px <= width <= 419px) {
+    
+      .Disappear-container-two-columns{
+        background-color: rgb(11, 11, 11);
+        height:35rem;
+    
+      }
+      .Disappear-image{
+       width:15rem;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 10%;
+       
+    
+      }
+     .Disappear-data {
+      text-align: center;
+      color: #FACBAF;
+    
+      
+     } 
+     .Disappear-data p{
+      font-size: 12px;
+     }
+     .Disappear-data h1{
+      font-size:3rem;
+      
+      
+     }
+    }
+    
+    @media (280px <= width <= 340px) {
+    
+      .Disappear-container-two-columns{
+        background-color: rgb(11, 11, 11);
+        height:43rem;
+    
+      }
+      .Disappear-image{
+       width:80%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    margin-top: 45%;
+    
+      }
+     .Disappear-data{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      color: #FACBAF;
+     
+   
+     } 
+     .Disappear-data h1{
+      font-size: 2.1rem;
+      
+     }
+     
+    }
+    @media (162px <= width <= 279px) {
+    
+      .Disappear-container-two-columns{
+        background-color: rgb(11, 11, 11);
+        height:35rem;
+    
+      }
+      .Disappear-image{
+       width:80%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    margin-top: 45%;
+    
+      }
+     .Disappear-data{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      color: #FACBAF;
+     
+   
+     } 
+     .Disappear-data h1{
+      font-size: 2.1rem;
+      
+     }
+     
+    }
+    

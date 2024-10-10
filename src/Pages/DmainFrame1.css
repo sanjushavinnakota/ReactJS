@@ -1,0 +1,434 @@
+*{
+  overflow-x: hidden;
+  margin: 0%;
+  padding: 0%;
+}
+.Dmain-data h1{
+  font-family :Playfair Display;
+
+}
+
+@media (4501px <= width <=5500px) {
+
+  
+  .Dmain-container-two-columns{
+    background-color: black;
+    height:50rem;
+    display: grid;
+    align-items: center; 
+   
+    grid-template-columns:  1fr 1fr;
+    
+ 
+   }
+   .Dmain-image{
+  width:23%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ 
+ 
+   }
+   .Dmain-data h1{
+     font-size: 6rem;
+     color: #FACBAF;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    
+     
+     
+
+   }
+   }
+
+@media (3501px <= width <=4500px) {
+
+  
+  .Dmain-container-two-columns{
+    background-color: black;
+    height:50rem;
+    display: grid;
+    align-items: center; 
+   
+    grid-template-columns:  1fr 1fr;
+    
+ 
+   }
+   .Dmain-image{
+  width:30%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ 
+ 
+   }
+   .Dmain-data h1{
+     font-size: 6rem;
+     color: #FACBAF;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    
+     
+     
+
+   }
+   }
+
+
+
+@media (2501px <= width <=3500px) {
+
+  
+  .Dmain-container-two-columns{
+    background-color: black;
+    height:50rem;
+    display: grid;
+    align-items: center; 
+   
+    grid-template-columns:  1fr 1fr;
+    
+ 
+   }
+   .Dmain-image{
+  width:35%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ 
+ 
+   }
+   .Dmain-data h1{
+     font-size: 6rem;
+     color: #FACBAF;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    
+     
+     
+
+   }
+   }
+
+@media (1901px <= width <=2500px) {
+
+  .Dmain-container-two-columns{
+    background-color: black;
+    height:50rem;
+    display: grid;
+    align-items: center; 
+   
+    grid-template-columns:  1fr 1fr;
+    
+ 
+   }
+   .Dmain-image{
+  width:50%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ 
+ 
+   }
+   .Dmain-data h1{
+     font-size: 8.5rem;
+     color: #FACBAF;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    
+     
+     
+
+   }
+   }
+@media (1501px <= width <=1900px) {
+
+  .Dmain-container-two-columns{
+    background-color: black;
+    height:33rem;
+    display: grid;
+    align-items: center; 
+   
+    grid-template-columns:  1fr 1fr;
+    
+ 
+   }
+   .Dmain-image{
+  width:50%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ 
+ 
+   }
+   .Dmain-data h1{
+     font-size: 7.7rem;
+     color: #FACBAF;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    
+     
+     
+
+   }
+   }
+  
+  @media (1150px <= width <=1500px) {
+  
+    .Dmain-container-two-columns{
+     background-color: black;
+     height:33rem;
+     display: grid;
+     align-items: center; 
+    
+     grid-template-columns:  1fr 1fr;
+     
+  
+    }
+    .Dmain-image{
+   width:45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+    }
+    .Dmain-data h1{
+      font-size: 6rem;
+      color: #FACBAF;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+     
+      
+      
+ 
+    }
+
+   
+  }
+  @media (901px <= width <= 1149px) {
+    .Dmain-container-two-columns{
+      background-color: rgb(4, 4, 4);
+      height:43rem;
+  
+    }
+    .Dmain-image{
+     width:35%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 10%;
+  
+    }
+   .Dmain-data{
+    text-align: center;
+    color: #FACBAF;
+
+   } 
+   .Dmain-heading{
+font-size: 3.9rem;
+
+   }
+
+  }
+  @media (801px <= width <= 900px) {
+  
+    .Dmain-container-two-columns{
+      background-color: rgb(4, 4, 4);
+      height:43rem;
+  
+    }
+    .Dmain-image{
+     width:35%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 10%;
+  
+    }
+   .Dmain-data{
+    text-align: center;
+    color: #FACBAF;
+
+   } 
+   .Dmain-heading{
+font-size: 4.5rem;
+
+   }
+
+  }
+
+
+
+
+
+
+
+  
+  @media (700px <= width <= 800px) {
+  
+    .Dmain-container-two-columns{
+      background-color: rgb(4, 4, 4);
+      height:38rem;
+  
+    }
+    .Dmain-image{
+     width:35%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 10%;
+  
+    }
+   .Dmain-data{
+    text-align: center;
+    color: #FACBAF;
+
+   } 
+   .Dmain-heading{
+font-size: 4rem;
+
+   }
+  }
+  @media (611px <= width <= 699px) {
+  
+    .Dmain-container-two-columns{
+      background-color: rgb(11, 11, 11);
+      height:43rem;
+  
+    }
+    .Dmain-image{
+     width:40%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+  margin-top: 19%;
+  
+    }
+   .Dmain-data{
+    text-align: center;
+    color: #FACBAF;
+    margin-top: 10%;
+   } 
+   .content{
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  
+  
+   }
+  }
+  @media (550px <= width <= 610px) {
+  
+    .Dmain-container-two-columns{
+      background-color: rgb(11, 11, 11);
+      height:39rem;
+  
+    }
+    .Dmain-image{
+     width:40%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+  margin-top: 19%;
+  
+    }
+   .Dmain-data{
+    text-align: center;
+    color: #FACBAF;
+    margin-top: 10%;
+   } 
+   .content{
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  
+  
+   }
+  }
+  
+  @media (420px <= width <= 549px) {
+  
+    .Dmain-container-two-columns{
+      background-color: rgb(11, 11, 11);
+      height:35rem;
+  
+    }
+    .Dmain-image{
+     width:50%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     
+  
+    }
+   .Dmain-data{
+    text-align: center;
+    color: #FACBAF;
+   
+    
+   } 
+   .Dmain-data h1{
+    font-size:3rem;
+   }
+  
+  }
+  @media (341px <= width <= 419px) {
+  
+    .Dmain-container-two-columns{
+      background-color: rgb(11, 11, 11);
+      height:30rem;
+  
+    }
+    .Dmain-image{
+     width:70%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+
+  
+    }
+   .Dmain-data{
+    text-align: center;
+    color: #FACBAF;
+   
+    
+   } 
+   .Dmain-data h1{
+    font-size: 2.3rem;
+   }
+  
+  }
+  
+  @media (280px <= width <= 340px) {
+  
+    .Dmain-container-two-columns{
+      background-color: rgb(11, 11, 11);
+      height:40rem;
+  
+    }
+    .Dmain-image{
+     width:90%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+  margin-top: 45%;
+  
+    }
+   .Dmain-data{
+    text-align: center;
+    color: #FACBAF;
+ 
+   } 
+   
+  }
+  

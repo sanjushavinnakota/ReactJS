@@ -1,0 +1,166 @@
+.Devotees p{
+    
+    float: left;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    }
+    .Devotees img{
+    
+    float: right;
+    width: 25%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (2501px <= width <=9500px) {
+
+
+    }
+
+
+   
+    @media (1501px <= width <=2500px) {
+
+
+    }
+
+
+
+    @media (1150px <= width <=1500px) {
+
+
+    }
+
+
+
+    @media (901px <= width <= 1149px) {
+
+
+    }
+
+
+    @media (700px <= width <= 900px) {
+       
+           
+
+    }
+
+
+
+    @media (611px <= width <= 699px) {
+        .Devotees p{
+            text-align: center;
+            width: 100%;
+         
+        }
+        .Devotees img{
+    
+           width: 100%;
+          
+       
+        
+            }
+           
+
+    }
+
+
+
+    @media (550px <= width <= 610px) {
+        .Devotees p{
+            text-align: center;
+            width: 100%;
+         
+        }
+        .Devotees img{
+    
+           width: 100%;
+          
+       
+        
+            }
+           
+
+    }
+
+
+    @media (420px <= width <= 549px) {
+        .Devotees p{
+            text-align: center;
+            width: 100%;
+         
+        }
+        .Devotees img{
+    
+           width: 100%;
+          
+       
+        
+            }
+           
+
+    }
+
+
+    @media (341px <= width <= 419px) {
+        .Devotees p{
+            text-align: center;
+            width: 100%;
+        }
+        .Devotees img{
+    
+           width: 100%;
+            }
+
+           
+    }
+
+
+
+    @media (280px <= width <= 340px) {
+  
+        .Devotees p{
+            text-align: center;
+            width: 100%;
+        }
+        .Devotees img{
+    
+           width: 100%;
+            }
+        }
+
+
+    @media (162px <= width <= 279px) {
+
+
+        .Devotees p{
+            text-align: center;
+            width: 100%;
+        }
+        .Devotees img{
+    
+           width: 100%;
+            }
+           
+    }
+
+
+    

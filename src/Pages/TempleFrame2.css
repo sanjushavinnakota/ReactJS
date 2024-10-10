@@ -1,0 +1,296 @@
+*{
+padding: 0%;
+margin: 0%;
+
+}
+
+.Temple-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.Temple-column p{
+  font-size: small;
+  font-family: Roboto;
+  text-align: left;
+
+}
+.Temple-column{
+  background-color: 
+white;
+ height:64%;
+ width:70%;
+ border-style: solid;
+  border-color: rgb(3, 3, 3);
+text-align: center;
+display: grid;
+
+margin-left: 15%;
+border-radius: 5%;
+}
+.buttons{
+
+ text-align: center;
+ display: flex;
+ margin-left: 10%;
+ border-radius: 10%;
+}
+.b1{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr ; 
+}
+.Temple-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ; 
+
+}
+
+
+
+
+
+
+@media (1501px <= width <=9999px) {
+
+  .Temple-row{
+    display: grid;
+   grid-template-rows: 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+      row-gap: 10px;
+      height:30vw;
+      
+        }
+        .Temple-img{
+          width: 50%;
+          display: grid;
+        }
+        .Temple-column p{
+
+        text-align: center;
+        font-size: medium;
+
+        }
+        .Temple-quotes{
+          display: grid;
+        }
+  
+        }
+        
+
+@media (1150px <= width <=1500px) {
+
+  .Temple-row{
+    display: grid;
+   grid-template-rows: 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+      row-gap: 10px;
+      height:30vw;
+      
+        }
+        .Temple-img {
+          width: 50%;
+          display: grid;
+       
+        
+        }
+        .Temple-quotes{
+          display: grid;
+        }
+  
+        }
+
+@media (901px <= width <= 1149px) {
+  .Temple-row{
+    display: grid;
+   grid-template-rows: 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+      row-gap: 10px;
+      height:40vw;
+      
+      
+        }
+        .Temple-img{
+          width: 50%;
+          display: grid;
+       
+        
+        }
+        .Temple-quotes{
+          display: grid;
+        }
+  
+        }
+
+@media (700px <= width <= 900px) {
+
+  .Temple-row{
+    display: grid;
+   grid-template-rows: 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+      row-gap: 10px;
+      height:45vw;
+      
+      
+        }
+        .Temple-img{
+          width: 50%;
+          display: grid;
+       
+        
+        }
+        .Temple-quotes{
+          display: grid;
+        }
+  
+        }
+
+
+@media (611px <= width <= 699px) {
+
+  .Temple-row{
+    background-size: cover;
+    display: flex;
+flex-direction:column;
+ 
+ }
+ .Temple-column{
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+border-radius: 10px;
+row-gap: 70px;
+ 
+   }
+   .Temple-img{
+
+    width:30%;
+ 
+   }
+   .Temple-column p{
+
+     text-align: center;
+   }
+  
+   }
+
+@media (550px <= width <= 610px) {
+  .Temple-row{
+    background-size: cover;
+    display: flex;
+flex-direction:column;
+ 
+ }
+ .Temple-column{
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+border-radius: 10px;
+row-gap: 70px;
+ 
+   }
+   .Temple-img{
+
+    width:30%;
+ 
+   }
+   .Temple-column p{
+
+     text-align: center;
+   }
+
+   }
+
+
+@media (420px <= width <= 549px) {
+
+  .Temple-row{
+    background-size: cover;
+    display: flex;
+flex-direction:column;
+ 
+ }
+ .Temple-column{
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+border-radius: 10px;
+row-gap: 70px;
+ 
+   }
+   .Temple-img{
+
+    width:30%;
+ 
+   }
+   .Temple-column p{
+
+     text-align: center;
+   }
+  
+  
+   }
+
+@media (341px <= width <= 419px) {
+
+  .Temple-row{
+    background-size: cover;
+    display: flex;
+flex-direction:column;
+ 
+ }
+ .Temple-column{
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+border-radius: 10px;
+row-gap: 70px;
+ 
+   }
+   .Temple-img{
+
+    width:30%;
+ 
+   }
+   .Temple-column p{
+
+     text-align: center;
+   }
+  
+   }
+
+ 
+@media (280px <= width <= 340px) {
+
+  .Temple-row{
+    background-size: cover;
+    display: flex;
+flex-direction:column;
+ 
+ }
+ .Temple-column{
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+border-radius: 10px;
+row-gap: 70px;
+ 
+   }
+   .Temple-img{
+
+    width:30%;
+ 
+   }
+   .Temple-column p{
+
+     text-align: center;
+   }
+  
+  
+   }

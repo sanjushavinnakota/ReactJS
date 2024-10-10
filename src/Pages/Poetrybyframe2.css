@@ -1,0 +1,450 @@
+.Poetryby-container button{
+
+height: 100%;
+  border-style: solid;
+  border-color: white;
+background-color: white;
+border-radius: 10%;
+}
+
+  @media (8001px <= width <=9999px) {
+   
+  
+    
+    .Poetryby-card {
+  
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Poetryby-card img{
+      width: 100%;
+      
+    }
+    
+    .Poetryby-container {
+      text-align:center;
+      height:30rem;
+      }
+      .Poetryby-row{
+      display:flex;
+      
+      }
+      .Poetryby-row p{
+        font-size:100px;
+      
+  
+  }
+  
+  }
+  
+  a:link { 
+    text-decoration: none; 
+    color:black;
+  } 
+  
+  @media (6001px <= width <=8000px) {
+   
+    .Poetryby-card {
+  
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Poetryby-card img{
+      width: 100%;
+      
+    }
+    
+    .Poetryby-container {
+    text-align:center;
+    height:30rem;
+    }
+    .Poetryby-row{
+    display:flex;
+    
+    }
+    .Poetryby-row p{
+      font-size:70px;
+    }
+  }
+  
+  
+  
+    
+  @media (5001px <= width <=6000px) {
+   
+    .Poetryby-card {
+  
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Poetryby-card img{
+      width: 100%;
+      
+    }
+    
+    .Poetryby-container {
+    text-align:center;
+    height:19rem;
+    }
+    .Poetryby-row{
+    display:flex;
+    
+    }
+    .Poetryby-row p{
+      font-size:90px;
+    }
+  
+  
+  }
+  @media (4001px <= width <=5000px) {
+  
+    .Poetryby-card {
+  
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Poetryby-card img{
+      width: 100%;
+      
+    }
+    
+    .Poetryby-container {
+    text-align:center;
+    height:12rem;
+    }
+    .Poetryby-row{
+    display:flex;
+    
+    }
+    .Poetryby-row p{
+      font-size:50px;
+    }
+  
+  
+  }
+  
+  @media (2501px <= width <=4000px) {
+    .Poetryby-card {
+  
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Poetryby-card img{
+      width: 100%;
+      
+    }
+    
+    .Poetryby-container {
+    text-align:center;
+    height:5rem;
+    }
+    .Poetryby-row{
+    display:flex;
+    
+    }
+    .Poetryby-row p{
+      font-size:35px;
+    }
+  
+     }
+  
+  @media (1901px <= width <=2500px) {
+    .Poetryby-card {
+  
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Poetryby-card img{
+      width: 100%;
+      
+    }
+    
+    .Poetryby-container {
+    text-align:center;
+    height:65px;
+    }
+    .Poetryby-row{
+    display:flex;
+    
+    }
+   
+    .Poetryby-row p{
+      font-size:23px;
+    }
+   
+     }
+  @media (1501px <= width <=1900px) {
+    .Poetryby-card {
+  
+      width: 25%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Poetryby-card img{
+      width: 100%;
+      
+    }
+    
+    .Poetryby-container {
+    text-align:center;
+    height:90px;
+    }
+    .Poetryby-row{
+    display:flex;
+    
+    }
+    .Poetryby-row p{
+      font-size:21px;
+    }
+    
+     }
+    
+    @media (1150px <= width <=1500px) {
+    
+      .Poetryby-card {
+  
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryby-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryby-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryby-row{
+      display:flex;
+      
+      }
+      
+  
+      
+    }
+    @media (901px <= width <= 1149px) {
+     
+      .Poetryby-card {
+  
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryby-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryby-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryby-row{
+      display:flex;
+      
+      }
+     
+    }
+  
+  
+  
+    @media (700px <= width <= 900px) {
+      .Poetryby-card {
+  
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryby-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryby-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryby-row{
+      display:flex;
+      margin-left: auto;
+      margin-right: auto
+      
+      }
+     
+    }
+  
+  
+    @media (611px <= width <= 699px) {
+    
+     
+      .Poetryby-card {
+  
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryby-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryby-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryby-row{
+      display:flex;
+      margin-left: auto;
+      margin-right: auto
+      
+      }
+  
+    }
+    @media (550px <= width <= 610px) {
+     
+      
+     
+      .Poetryby-card {
+
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryby-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryby-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryby-row{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+      
+      }
+     
+    }
+    
+    @media (420px <= width <= 549px) {
+     
+     
+     
+      .Poetryby-card {
+
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryby-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryby-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryby-row{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+      
+      }
+     
+    }
+    @media (341px <= width <= 419px) {
+     
+    
+      .Poetryby-card {
+
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryby-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryby-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryby-row{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+      
+      }
+    }
+    
+    @media (280px <= width <= 340px) {
+     
+      
+   
+      .Poetryby-card {
+
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryby-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryby-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryby-row{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+      
+      }
+     
+    }
+    @media (162px <= width <= 279px) {
+     
+     
+      .Poetryby-card {
+
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Poetryby-card img{
+        width: 100%;
+        
+      }
+      
+      .Poetryby-container {
+      text-align:center;
+      height:70px;
+      }
+      .Poetryby-row{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+      
+      }
+     
+    }
+  

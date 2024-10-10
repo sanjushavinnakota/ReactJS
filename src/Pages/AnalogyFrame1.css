@@ -1,0 +1,534 @@
+*{
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+  }
+  .Analogy-data .Analogy-heading{
+    font-family :Playfair Display;
+  
+  }
+.Analogy-data  p{
+  color: #FACBAF ;
+}
+
+  @media (8001px <= width <=9999px) {
+  
+    .Analogy-container-two-columns{
+      background-color: black;
+      height:80rem;
+      display: grid;
+      align-items: center; 
+     
+      grid-template-columns:  1fr 1fr;
+      
+   
+     }
+     .Analogy-image{
+    width:20%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+     }
+     .Analogy-data .Analogy-heading{
+       font-size: 9.7rem;
+       color: #FACBAF;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+      
+       
+       
+  
+     }
+     }
+  
+
+
+
+
+
+
+
+
+  @media (6001px <= width <=8000px) {
+  
+    .Analogy-container-two-columns{
+      background-color: black;
+      height:80rem;
+      display: grid;
+      align-items: center; 
+     
+      grid-template-columns:  1fr 1fr;
+      
+   
+     }
+     .Analogy-image{
+    width:25%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+     }
+     .Analogy-data .Analogy-heading{
+       font-size: 9.7rem;
+       color: #FACBAF;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+      
+       
+       
+  
+     }
+     }
+  
+  @media (5001px <= width <=6000px) {
+  
+    .Analogy-container-two-columns{
+      background-color: black;
+      height:80rem;
+      display: grid;
+      align-items: center; 
+     
+      grid-template-columns:  1fr 1fr;
+      
+   
+     }
+     .Analogy-image{
+    width:30%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+     }
+     .Analogy-data .Analogy-heading{
+       font-size: 9.7rem;
+       color: #FACBAF;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+      
+       
+       
+  
+     }
+     }
+  
+  
+  @media (4001px <= width <=5000px) {
+  
+    .Analogy-container-two-columns{
+      background-color: black;
+      height:80rem;
+      display: grid;
+      align-items: center; 
+     
+      grid-template-columns:  1fr 1fr;
+      
+   
+     }
+     .Analogy-image{
+    width:35%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+     }
+     .Analogy-data .Analogy-heading{
+       font-size: 9.7rem;
+       color: #FACBAF;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+      
+       
+       
+  
+     }
+     }
+  
+  
+  @media (2501px <= width <=4000px) {
+  
+    .Analogy-container-two-columns{
+      background-color: black;
+      height:80rem;
+      display: grid;
+      align-items: center; 
+   
+      grid-template-columns:  1fr 1fr;
+      
+   
+     }
+     .Analogy-image{
+    width:40%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+     }
+     .Analogy-data .Analogy-heading{
+       font-size: 9.7rem;
+       color: #FACBAF;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+      
+       
+       
+  
+     }
+     }
+  
+  @media (1901px <= width <=2500px) {
+  
+    .Analogy-container-two-columns{
+      background-color: black;
+      height:50rem;
+      display: grid;
+      align-items: center; 
+     
+      grid-template-columns:  1fr 1fr;
+      
+   
+     }
+     .Analogy-image{
+    width:50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+     }
+     .Analogy-data .Analogy-heading{
+       font-size: 8.5rem;
+       color: #FACBAF;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+      
+     }
+     .Analogy-data p{
+        font-size:larger;
+     }
+     }
+  @media (1501px <= width <=1900px) {
+  
+    .Analogy-container-two-columns{
+      background-color: black;
+      height:33rem;
+      display: grid;
+      align-items: center; 
+     
+      grid-template-columns:  1fr 1fr;
+      
+   
+     }
+     .Analogy-image{
+    width:40%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+     }
+     .Analogy-data .Analogy-heading{
+       font-size: 7.7rem;
+       color: #FACBAF;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+      
+       
+       
+  
+     }
+     }
+    
+    @media (1150px <= width <=1500px) {
+    
+      .Analogy-container-two-columns{
+       background-color: black;
+       height:33rem;
+       display: grid;
+       align-items: center; 
+      
+       grid-template-columns:  1fr 1fr;
+       
+    
+      }
+      .Analogy-image{
+     width:45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+      }
+      .Analogy-data .Analogy-heading{
+        font-size: 6rem;
+        color: #FACBAF;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
+        
+        
+   
+      }
+  
+     
+    }
+    @media (901px <= width <= 1149px) {
+      .Analogy-container-two-columns{
+        background-color: black;
+        height:33rem;
+        display: grid;
+        align-items: center; 
+       
+        grid-template-columns:  1fr 1fr;
+        
+     
+       }
+       .Analogy-image{
+      width:16rem;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     
+     
+       }
+       .Analogy-data .Analogy-heading{
+         font-size: 5.5rem;
+         color: #FACBAF;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+        
+         
+         
+    
+       }
+   
+    
+    }
+  
+  
+  
+    @media (700px <= width <= 900px) {
+    
+      .Analogy-container-two-columns{
+        background-color: black;
+        height:33rem;
+        display: grid;
+        align-items: center; 
+       
+        grid-template-columns:  1fr 1fr;
+        
+     
+       }
+       .Analogy-image{
+      width:16rem;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     
+     
+       }
+       .Analogy-data .Analogy-heading{
+         font-size: 4.6rem;
+         color: #FACBAF;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+        
+         
+         
+    
+       }
+   
+    
+    }
+  
+  
+    @media (611px <= width <= 699px) {
+    
+      .Analogy-container-two-columns{
+        background-color: rgb(11, 11, 11);
+        height:49rem;
+    
+      }
+      .Analogy-image{
+       width:40%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    margin-top: 19%;
+    
+      }
+     .Analogy-data{
+      text-align: center;
+      color: #FACBAF;
+      margin-top: 10%;
+     } 
+     .content{
+      width:50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    
+    
+    
+     }
+     .Analogy-data .Analogy-heading{
+      font-size: rem;
+      color: #FACBAF;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+     
+      
+      
+ 
+    }
+
+    }
+    @media (550px <= width <= 610px) {
+    
+      .Analogy-container-two-columns{
+        background-color: rgb(11, 11, 11);
+        height:44rem;
+    
+      }
+      .Analogy-image{
+       width:40%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    margin-top: 19%;
+    
+      }
+     .Analogy-data{
+      text-align: center;
+      color: #FACBAF;
+      margin-top: 10%;
+     } 
+     .content{
+      width:50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    
+    
+    
+     }
+     .Analogy-data .Analogy-heading{
+      font-size:3.9rem;
+      
+      
+     }
+    }
+    
+    @media (420px <= width <= 549px) {
+    
+      .Analogy-container-two-columns{
+        background-color: rgb(11, 11, 11);
+        height:35rem;
+    
+      }
+      .Analogy-image{
+       width:15rem;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 10%;
+       
+    
+      }
+     .Analogy-data {
+      text-align: center;
+      color: #FACBAF;
+    
+      
+     } 
+     .Analogy-data p{
+      font-size: 12px;
+     }
+     .Analogy-data .Analogy-heading{
+      font-size:3.5rem;
+      
+      
+     }
+    
+    }
+    @media (341px <= width <= 419px) {
+    
+      .Analogy-container-two-columns{
+        background-color: rgb(11, 11, 11);
+        height:30rem;
+    
+      }
+      .Analogy-image{
+       width:60%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 15%;
+  
+    
+      }
+      .Analogy-data {
+        text-align: center;
+        color: #FACBAF;
+      
+        
+       } 
+       .Analogy-data p{
+        font-size: 12px;
+       }
+       .Analogy-data .Analogy-heading{
+        font-size:2.9rem;
+        
+        
+       }
+    
+    }
+    
+    @media (280px <= width <= 340px) {
+    
+      .Analogy-container-two-columns{
+        background-color: rgb(11, 11, 11);
+        height:40rem;
+    
+      }
+      .Analogy-image{
+       width:90%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    margin-top: 45%;
+    
+      }
+      .Analogy-data {
+        text-align: center;
+        color: #FACBAF;
+      
+        
+       } 
+       .Analogy-data p{
+        font-size: 12px;
+       }
+       .Analogy-data .Analogy-heading{
+        font-size:2.8rem;
+        
+        
+       }
+     
+    }
+    

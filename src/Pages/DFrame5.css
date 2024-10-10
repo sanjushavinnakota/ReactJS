@@ -1,0 +1,199 @@
+.reference-para{
+    float: left;
+    width: 50%;
+  }
+  
+  .ref-buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-columns: repeat(n, 1fr);
+      gap: 10px;
+  
+    float: right;
+  }
+  .reference{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: gray;
+    margin: 1%;
+    
+    
+  }
+  .sign-iamge{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+  }
+  @media (162px <= width <= 279px) {
+
+    .reference{
+        display: flex;
+        flex-direction:column;
+      }
+         .reference-para{
+      width: 100%;
+      text-align: center;
+         }
+         .ref-buttons{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+       
+       
+         }
+        }
+         @media (280px <= width <= 340px) {
+     
+     
+  
+            .reference{
+              display: flex;
+              flex-direction:column;
+            }
+               .reference-para{
+            width: 100%;
+            text-align: center;
+               }
+               .ref-buttons{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+             
+             
+               }
+
+
+            }
+            @media (341px <= width <= 419px) {
+     
+      
+                .reference{
+                 display: flex;
+                 flex-direction:column;
+               }
+                  .reference-para{
+               width: 80%;
+               text-align: center;
+                  }
+                  .ref-buttons{
+                   display: grid;
+                   grid-template-columns: 1fr 1fr 1fr;
+                   flex-direction: column;
+                   justify-content: center;
+                   align-items: center;
+                
+                
+                  }
+                }
+                @media (420px <= width <= 549px) {
+     
+                    .reference{
+                      display: flex;
+                      flex-direction:column;
+                    }
+                       .reference-para{
+                    width: 80%;
+                    text-align: center;
+                       }
+                       .ref-buttons{
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                     
+                     
+                       }
+
+
+                    }
+                    @media (550px <= width <= 610px) {
+     
+      
+     
+                        .reference{
+                         display: flex;
+                         flex-direction:column;
+                       }
+                          .reference-para{
+                       width: 80%;
+                       text-align: center;
+                          }
+                          .ref-buttons{
+                           display: grid;
+                           grid-template-columns: 1fr 1fr 1fr;
+                           flex-direction: column;
+                           justify-content: center;
+                           align-items: center;
+                        
+                        
+                          }
+                        }
+  @media (611px <= width <= 699px) {
+    
+     
+     
+.reference{
+display: flex;
+flex-direction:column;
+ }
+.reference-para{
+width: 100%;
+ text-align: center;
+}
+.ref-buttons{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+
+}
+}
+  
+@media (700px <= width <= 900px) {
+     
+    .reference{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  
+     }
+      
+      .ref-buttons{
+        width: 40rem;
+        
+            }
+        }
+        @media (901px <= width <= 1149px) {
+
+
+       
+            .ref-buttons{
+              width: 90%;
+              
+                  }
+ }
+ @media (1150px <= width <=1500px) {
+    
+     
+  
+    .reference-para{
+      float: left;
+    }
+    
+    .reference{
+      margin-left: auto;
+      margin-right: auto;
+    
+    }
+}                     

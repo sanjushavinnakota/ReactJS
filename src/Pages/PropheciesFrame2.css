@@ -1,0 +1,858 @@
+
+
+.Prophecies-row{
+  display: grid;
+  grid-template-columns: 1fr;
+
+  height:40rem;
+}
+
+
+.Prophecies-column {
+  float: left;
+
+  padding: 10px;
+
+   border-style:solid;
+ 
+  float:left;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+
+}
+.Prophecies-column h2{
+font-size:larger;
+color: white;
+
+}
+.Prophecies-column button{
+
+
+border-radius: 10px;
+
+}
+.Prophecies-column img{
+  width: 130px;
+  float: right;
+
+
+  
+
+}
+/* Clear floats after the columns */
+.Prophecies-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.category{
+  display: flex;
+
+}
+.category button{
+ display: inline-flex;
+ border-radius: 10px;
+
+}
+
+
+.Prophecies-column p{
+  color: white;
+  font-size: small;
+  width:60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (8001px <= width <=9999px) {
+  .Prophecies-row{
+    display: grid;
+    grid-template-columns: 1fr ;
+    
+  }
+  
+  
+  .Prophecies-column {
+    float: left;
+    width: 90%;
+    padding: 10px;
+  
+     border-style:solid;
+    height:150px;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+  }
+  .Prophecies-column h2{
+  font-size:larger;
+  
+  }
+  .Prophecies-column button{
+  
+  
+  border-radius: 10px;
+  
+  }
+  .Prophecies-column img{
+    width: 130px;
+    float: right;
+  
+  
+    
+  
+  }
+  /* Clear floats after the Prophecies-columns */
+  .Prophecies-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .category{
+    display: flex;
+  
+  }
+  .category button{
+   display: inline-flex;
+   border-radius: 10px;
+  
+  }
+  
+  
+  
+  
+
+  
+
+
+}
+
+
+
+
+
+@media (6001px <= width <=8000px) {
+  .Prophecies-row{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  
+  .Prophecies-column {
+    float: left;
+    width: 90%;
+    padding: 10px;
+  
+     border-style:solid;
+    height:150px;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+  }
+  .Prophecies-column h2{
+  font-size:larger;
+  
+  }
+  .Prophecies-column button{
+  
+  
+  border-radius: 10px;
+  
+  }
+  .Prophecies-column img{
+    width: 130px;
+    float: right;
+  
+  
+    
+  
+  }
+  /* Clear floats after the Prophecies-columns */
+  .Prophecies-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .category{
+    display: flex;
+  
+  }
+  .category button{
+   display: inline-flex;
+   border-radius: 10px;
+  
+  }
+  
+  
+  
+  
+  
+
+
+}
+
+
+
+  
+@media (5001px <= width <=6000px) {
+  .Prophecies-row{
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
+  
+  
+  .Prophecies-column {
+    float: left;
+    width: 90%;
+    padding: 10px;
+  
+     border-style:solid;
+    height:150px;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+  }
+  .Prophecies-column h2{
+  font-size:larger;
+  
+  }
+  .Prophecies-column button{
+  
+  
+  border-radius: 10px;
+  
+  }
+  .Prophecies-column img{
+    width: 130px;
+    float: right;
+  
+  
+    
+  
+  }
+  /* Clear floats after the Prophecies-columns */
+  .Prophecies-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .category{
+    display: flex;
+  
+  }
+  .category button{
+   display: inline-flex;
+   border-radius: 10px;
+  
+  }
+  
+  
+  
+  
+  
+
+}
+@media (4001px <= width <=5000px) {
+
+  .Prophecies-row{
+    display: grid;
+    grid-template-columns:  1fr;
+  }
+  
+  
+  .Prophecies-column {
+    float: left;
+    width: 90%;
+    padding: 10px;
+  
+     border-style:solid;
+    height:150px;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+  }
+  .Prophecies-column h2{
+  font-size:larger;
+  
+  }
+  .Prophecies-column button{
+  
+  
+  border-radius: 10px;
+  
+  }
+  .Prophecies-column img{
+    width: 130px;
+    float: right;
+  
+  
+    
+  
+  }
+  /* Clear floats after the columns */
+  .Prophecies-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .category{
+    display: flex;
+  
+  }
+  .category button{
+   display: inline-flex;
+   border-radius: 10px;
+  
+  }
+  
+  
+  
+  
+  
+
+}
+
+@media (2501px <= width <=4000px) {
+  .Prophecies-row{
+    display: grid;
+    grid-template-columns:  1fr;
+  }
+  
+  
+  .Prophecies-column {
+    float: left;
+    width: 90%;
+    padding: 10px;
+     border-style:solid;
+    height:169px;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+  }
+  .Prophecies-column h2{
+  font-size:30px;
+  
+  }
+  .Prophecies-column p{
+    font-size:25px;
+  
+    }
+  .Prophecies-column button{
+  font-size: larger;
+  height:50px;
+  border-radius: 10px;
+  
+  }
+  .Prophecies-column img{
+    width: 130px;
+    float: right;
+  
+  
+    
+  
+  }
+  /* Clear floats after the columns */
+  .Prophecies-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .category{
+    display: flex;
+  
+  }
+  .category button{
+   display: inline-flex;
+   border-radius: 10px;
+  
+  }
+  
+  
+  
+  
+  
+  
+   }
+
+@media (1901px <= width <=2500px) {
+  .Prophecies-row{
+    display: grid;
+    grid-template-columns: 1fr;
+    height:130rem;
+  }
+  
+  
+  .Prophecies-column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  
+     border-style:solid;
+    height:max-content;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+  }
+  .Prophecies-column h2{
+  font-size:40px;
+  
+  }
+  .Prophecies-column button{
+  
+  
+  border-radius: 10px;
+  
+  }
+  .Prophecies-column img{
+    width: 30%;
+    float: right;
+  
+  
+    
+  
+  }
+
+  .Prophecies-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .category{
+    display: flex;
+  
+  }
+  .category button{
+   display: inline-flex;
+   border-radius: 10px;
+  
+  }
+  
+  
+  .Prophecies-column p{
+    width: 60%;
+    font-size: 31px;
+    line-height: 40px;
+  }
+  
+  
+ 
+   }
+@media (1501px <= width <=1900px) {
+
+  .Prophecies-row{
+    display: grid;
+    grid-template-columns:1fr;
+    height:94rem;
+  }
+  
+  
+  .Prophecies-column {
+    float: left;
+    width: 80%;
+    padding: 10px;
+    align-items: center;
+     border-style:solid;
+    height:19rem;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+   
+ line-height: 32px;
+ margin-top: 3%;
+  }
+  .Prophecies-column h2{
+  font-size:30px;
+  
+  }
+  .Prophecies-column button{
+  
+  
+  border-radius: 10px;
+  
+  }
+  .Prophecies-column img{
+    width: 21%;
+    float: right;
+  
+  
+    
+  }
+  .Prophecies-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .category{
+    display: flex;
+  
+  }
+  .category button{
+   display: inline-flex;
+   border-radius: 10px;
+  
+  }
+  .Prophecies-column p{
+    font-size: 20px;
+  }
+ 
+   }
+  
+  @media (1150px <= width <=1500px) {
+  
+    .Prophecies-row{
+      display: grid;
+      grid-template-columns:1fr;
+      height:80rem;
+    }
+    
+    
+    .Prophecies-column {
+      float: left;
+      width: 80%;
+      padding: 10px;
+      align-items: center;
+       border-style:solid;
+      height:max-content;
+      float:left;
+      margin-left: auto;
+      margin-right: auto;
+     
+   line-height: 32px;
+   margin-top: 3%;
+    }
+    .Prophecies-column h2{
+    font-size:30px;
+    
+    }
+    .Prophecies-column button{
+    
+    
+    border-radius: 10px;
+    
+    }
+    .Prophecies-column img{
+      width: 21%;
+      float: right;
+    
+    
+      
+    }
+    .Prophecies-row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .category{
+      display: flex;
+    
+    }
+    .category button{
+     display: inline-flex;
+     border-radius: 10px;
+    
+    }
+    
+   
+    
+    
+    
+  }
+  @media (901px <= width <= 1149px) {
+    .Prophecies-row{
+      display: grid;
+      grid-template-columns:1fr;
+      height:85rem;
+    }
+    
+    
+    .Prophecies-column {
+      float: left;
+      width: 80%;
+      padding: 10px;
+      align-items: center;
+       border-style:solid;
+      height:max-content;
+      float:left;
+      margin-left: auto;
+      margin-right: auto;
+     
+   line-height: 32px;
+   margin-top: 3%;
+    }
+    .Prophecies-column h2{
+    font-size:larger;
+    
+    }
+    .Prophecies-column button{
+    
+    
+    border-radius: 10px;
+    
+    }
+    .Prophecies-column img{
+      width: 21%;
+      float: right;
+    
+    
+      
+    }
+    .Prophecies-row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .category{
+      display: flex;
+    
+    }
+    .category button{
+     display: inline-flex;
+     border-radius: 10px;
+    
+    }
+    
+   
+    
+    
+    
+  
+  }
+
+
+
+  @media (700px <= width <= 900px) {
+  
+    .Prophecies-row{
+      display: grid;
+      grid-template-columns: 1fr;
+      height:100rem;
+    }
+    .Prophecies-column {
+      float: left;
+      width: 100%;
+      padding: 10px;
+    display: flex;
+    flex-direction: column;
+       border-style:solid;
+      height:max-content;
+      float:left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      text-align: center;
+    
+    }
+    .Prophecies-column img{
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+   .Prophecies-column p{
+ margin-left: auto;
+ margin-right: auto;
+ width:90%;
+   }
+  
+  }
+
+
+  @media (611px <= width <= 699px) {
+  
+    .Prophecies-row{
+      display: grid;
+      grid-template-columns: 1fr;
+      height:100rem;
+    }
+    .Prophecies-column {
+      float: left;
+      width: 100%;
+      padding: 10px;
+    display: flex;
+    flex-direction: column;
+       border-style:solid;
+      height:max-content;
+      float:left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      text-align: center;
+    
+    }
+    .Prophecies-column img{
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+   .Prophecies-column p{
+ margin-left: auto;
+ margin-right: auto;
+ width:90%;
+   }
+
+  }
+  @media (550px <= width <= 610px) {
+    .Prophecies-row{
+      display: grid;
+      grid-template-columns: 1fr;
+      height:100rem;
+    }
+    .Prophecies-column {
+      float: left;
+      width: 100%;
+      padding: 10px;
+    display: flex;
+    flex-direction: column;
+       border-style:solid;
+      height:max-content;
+      float:left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      text-align: center;
+    
+    }
+    .Prophecies-column img{
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+   .Prophecies-column p{
+ margin-left: auto;
+ margin-right: auto;
+ width:90%;
+   }
+   
+  }
+  
+  @media (420px <= width <= 549px) {
+    .Prophecies-row{
+      display: grid;
+      grid-template-columns: 1fr;
+      height:90rem;
+    }
+    .Prophecies-column {
+      float: left;
+      width: 100%;
+      padding: 10px;
+    display: flex;
+    flex-direction: column;
+       border-style:solid;
+      height:max-content;
+      float:left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      text-align: center;
+    
+    }
+    .Prophecies-column img{
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+   .Prophecies-column p{
+ margin-left: auto;
+ margin-right: auto;
+ width:90%;
+   }
+  }
+  @media (341px <= width <= 419px) {
+  
+    .Prophecies-row{
+      display: grid;
+      grid-template-columns: 1fr;
+      height:90rem;
+    }
+    .Prophecies-column {
+      float: left;
+      width: 100%;
+      padding: 10px;
+    display: flex;
+    flex-direction: column;
+       border-style:solid;
+      height:max-content;
+      float:left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      text-align: center;
+    
+    }
+    .Prophecies-column img{
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+   .Prophecies-column p{
+ margin-left: auto;
+ margin-right: auto;
+ width:90%;
+   }
+  }
+  
+  @media (280px <= width <= 340px) {
+  
+    .Prophecies-row{
+      display: grid;
+      grid-template-columns: 1fr;
+      height:100rem;
+    }
+    .Prophecies-column {
+      float: left;
+      width: 100%;
+      padding: 10px;
+    display: flex;
+    flex-direction: column;
+       border-style:solid;
+      height:max-content;
+      float:left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      text-align: center;
+    
+    }
+    .Prophecies-column img{
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+   .Prophecies-column p{
+ margin-left: auto;
+ margin-right: auto;
+ width:90%;
+   }
+  }
+  

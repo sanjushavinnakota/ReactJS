@@ -1,0 +1,778 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  overflow-x: hidden;
+  }
+  
+ 
+  
+  .PhotoPastime-PhotoPastime-column2 p{
+    font-size: 10px;
+    font-family: Roboto;
+    
+  }
+  .PhotoPastime-column2{
+    background-color: 
+  white;
+   
+   width:70%;
+  text-align: center;
+  height:max-content;
+
+ border-radius: 1%;
+ border-style: solid;
+ border-color:black;
+
+  
+  
+  }
+ .PhotoPastime-column2 h5{
+  font-size: 15px;
+ }
+ 
+  .PhotoPastime-quotes{
+    display: grid;
+  }
+  .PhotoPastime-column2 button{
+    background-color:rgb(12, 12, 12);
+    width:100%;
+    height:auto;
+   margin-top: auto;
+    border-radius: 1%;
+    color: white;
+   
+    justify-content: center;
+   
+    
+  }
+  
+  .PhotoPastime-column2 img{
+    width:100%;
+    height: 50%;
+
+  }
+  @media (8101px <= width <=9999px) {
+  
+    .PhotoPastime-PhotoPastime-row2{
+      display: grid;
+     grid-template-rows: 25em;
+     grid-template-columns: 1fr 1fr 1fr ;
+  height:156rem;
+
+          }
+          
+      .PhotoPastime-column2{
+        display: flex;
+  justify-content: center;
+  height:130rem;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+  margin-top: 10%;
+      }
+             
+        .PhotoPastime-column2 button{
+          display: flex;
+          width: 70%;
+          border-radius: 10px;
+          align-items: center;
+          margin-left: auto;
+          margin-right: auto;
+          height:80px;
+        font-size:30px;
+        }    
+        .PhotoPastime-column2 p{
+          font-size:85px;
+         }
+         .PhotoPastime-column2 h5{
+          font-size:100px;
+         }
+   
+       }
+  @media (7421px <= width <=8100px) {
+  
+    .PhotoPastime-row2{
+      display: grid;
+     grid-template-rows: 25em;
+     grid-template-columns: 1fr 1fr 1fr ;
+  height:110rem;
+
+          }
+          
+      .PhotoPastime-column2{
+        display: flex;
+  justify-content: center;
+  height:85rem;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+  margin-top: 10%;
+      }
+             
+        .PhotoPastime-column2 button{
+          display: flex;
+          width: 70%;
+          border-radius: 10px;
+          align-items: center;
+          margin-left: auto;
+          margin-right: auto;
+         
+        }    
+        .PhotoPastime-column2 p{
+          font-size:35px;
+         }
+         .PhotoPastime-column2 h5{
+          font-size:50px;
+         }
+   
+       }
+
+  @media (6001px <= width <=7420px) {
+  
+    .PhotoPastime-row2{
+      display: grid;
+     grid-template-rows: 25em;
+     grid-template-columns: 1fr 1fr 1fr ;
+  height:100rem;
+
+          }
+          
+      .PhotoPastime-column2{
+        display: flex;
+  justify-content: center;
+  height:85rem;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+  margin-top: 10%;
+      }
+             
+        .PhotoPastime-column2 button{
+          display: flex;
+          width: 70%;
+          border-radius: 10px;
+          align-items: center;
+          margin-left: auto;
+          margin-right: auto;
+         
+        }    
+        .PhotoPastime-column2 p{
+          font-size:35px;
+         }
+         .PhotoPastime-column2 h5{
+          font-size:50px;
+         }
+   
+       }
+
+  
+  @media (5001px <= width <=6000px) {
+  
+    .PhotoPastime-row2{
+      display: grid;
+     grid-template-rows: 25em;
+     grid-template-columns: 1fr 1fr 1fr ;
+  height:87rem;
+
+          }
+          
+      .PhotoPastime-column2{
+        display: flex;
+  justify-content: center;
+  height:70rem;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 10%;
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+      }
+             
+        .PhotoPastime-column2 button{
+          display: flex;
+          width: 70%;
+          border-radius: 10px;
+          align-items: center;
+          margin-left: auto;
+          margin-right: auto;
+         
+        }    
+        .PhotoPastime-column2 p{
+          font-size:45px;
+         }
+         .PhotoPastime-column2 h5{
+          font-size:60px;
+         }
+   
+       }
+
+  
+  
+  @media (4001px <= width <=5000px) {
+  
+    
+    .PhotoPastime-row2{
+      display: grid;
+     grid-template-rows: 25em;
+     grid-template-columns: 1fr 1fr 1fr ;
+  height:65rem;
+
+          }
+          
+      .PhotoPastime-column2{
+        display: flex;
+  justify-content: center;
+  height:60rem;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+      }
+             
+        .PhotoPastime-column2 button{
+          display: flex;
+          width: 70%;
+          border-radius: 10px;
+          align-items: center;
+          margin-left: auto;
+          margin-right: auto;
+         
+        }    
+        .PhotoPastime-column2 p{
+          font-size:35px;
+         }
+         .PhotoPastime-column2 h5{
+          font-size:50px;
+         }
+   
+       }
+
+  
+  
+  
+  @media (3001px <= width <=4000px) {
+  
+   
+    .PhotoPastime-row2{
+      display: grid;
+     grid-template-rows: 25em;
+     grid-template-columns: 1fr 1fr 1fr ;
+  height:60rem;
+
+          }
+          
+      .PhotoPastime-column2{
+        display: flex;
+  justify-content: center;
+  height:55rem;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+      }
+             
+        .PhotoPastime-column2 button{
+          display: flex;
+          width: 70%;
+          border-radius: 10px;
+          align-items: center;
+          margin-left: auto;
+          margin-right: auto;
+         
+        }    
+        .PhotoPastime-column2 p{
+          font-size:35px;
+         }
+         .PhotoPastime-column2 h5{
+          font-size:50px;
+         }
+   
+       }
+
+  
+  
+  @media (2501px <= width <=3000px) {
+  
+   
+    .PhotoPastime-row2{
+      display: grid;
+     grid-template-rows: 25em;
+     grid-template-columns: 1fr 1fr 1fr ;
+  height:70rem;
+
+          }
+          
+      .PhotoPastime-column2{
+        display: flex;
+  justify-content: center;
+  height:60rem;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+  margin-top: 10%;
+      }
+             
+        .PhotoPastime-column2 button{
+          display: flex;
+          width: 70%;
+          border-radius: 10px;
+          align-items: center;
+          margin-left: auto;
+  margin-right: auto;
+         
+        }    
+        .PhotoPastime-column2 p{
+          font-size:35px;
+         }
+         .PhotoPastime-column2 h5{
+          font-size:50px;
+         }
+   
+       }
+
+
+
+          @media (2101px <= width <=2500px) {
+  
+            .PhotoPastime-row2{
+              display: grid;
+             grid-template-rows: 25em;
+             grid-template-columns: 1fr 1fr 1fr ;
+          height:36rem;
+       
+                  }
+                  
+              .PhotoPastime-column2{
+                display: flex;
+          justify-content: center;
+          height:33rem;
+          flex-wrap: wrap;
+          text-align: center;
+          
+          width:90%;
+              }
+                     
+                .PhotoPastime-column2 button{
+                  display: flex;
+                  width: 70%;
+                  border-radius: 10px;
+                  align-items: center;
+                  margin-left: auto;
+                  margin-right: auto;
+                 
+                }   
+                
+                
+                
+                .PhotoPastime-column2 p{
+                  font-size:larger;
+                 }
+                 .PhotoPastime-column2 h5{
+                  font-size:30px;
+                 }
+           
+               }
+
+          
+          @media (1701px <= width <=2100px) {
+  
+            .PhotoPastime-row2{
+              display: grid;
+             grid-template-rows: 25em;
+             grid-template-columns: 1fr 1fr 1fr ;
+          height:35rem;
+       
+             
+            
+             
+                  }
+                  
+              .PhotoPastime-column2{
+                display: flex;
+          justify-content: center;
+          height:30rem;
+          flex-wrap: wrap;
+          text-align: center;
+          width:90%;
+        
+        
+              }
+                     
+                .PhotoPastime-column2 button{
+                  display: flex;
+                  align-items: center;
+                  width: 70%;
+                  border-radius: 10px;
+                  margin-left: auto;
+  margin-right: auto;
+                 
+                }
+           .PhotoPastime-column2 p{
+            font-size:large;
+           }
+           .PhotoPastime-column2 h5{
+            font-size:px;
+
+           }
+               }
+                 
+  
+  
+  
+  @media (1501px <= width <=1700px) {
+  
+    .PhotoPastime-row2{
+      display: grid;
+     grid-template-rows: 25em;
+     grid-template-columns: 1fr 1fr 1fr ;
+  height:28rem;
+
+     
+    
+     
+          }
+          
+      .PhotoPastime-column2{
+        display: flex;
+  justify-content: center;
+  height:25rem;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+  width:90%;
+      }
+             
+        .PhotoPastime-column2 button{
+          display: flex;
+          width: 70%;
+          border-radius: 10px;
+          align-items: center;
+      
+          margin-left: auto;
+         margin-right: auto;
+        }
+    
+    
+                 
+         
+    
+        }
+          
+  
+  @media (1150px <= width <=1500px) {
+  
+    .PhotoPastime-row2{
+      display: grid;
+     grid-template-rows: 25em;
+     grid-template-columns: 1fr 1fr 1fr ;
+  height:36rem;
+
+     
+    
+     
+          }
+          
+      .PhotoPastime-column2{
+        display: flex;
+  justify-content: center;
+  height:33rem;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+  width:90%;
+      }
+             
+        .PhotoPastime-column2 button{
+          display: flex;
+          width: 70%;
+          border-radius: 10px;
+          align-items: center;
+      
+          margin-left: auto;
+  margin-right: auto;
+        }
+    
+    
+    }
+  
+        
+  
+  @media (901px <= width <= 1149px) {
+    .PhotoPastime-row2{
+      display: grid;
+     grid-template-rows: 25em;
+     grid-template-columns: 1fr 1fr 1fr ;
+  height:45rem;
+
+     
+    
+     
+          }
+          
+      .PhotoPastime-column2{
+        display: flex;
+  justify-content: center;
+  height:40rem;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 5%;
+  width:95%;
+  margin-left: auto;
+  margin-right: auto;
+      }
+             
+        .PhotoPastime-column2 button{
+          display: flex;
+          width: 70%;
+          border-radius: 10px;
+          align-items: center;
+          margin-left: auto;
+          margin-right: auto;
+         
+        }
+    
+        }
+    
+  
+  
+  @media (700px <= width <= 900px) {
+  
+    .PhotoPastime-row2{
+      display: grid;
+     grid-template-rows: 25em;
+     grid-template-columns: 1fr 1fr 1fr ;
+  height:55rem;
+
+     
+    
+     
+          }
+          
+      .PhotoPastime-column2{
+        display: flex;
+  justify-content: center;
+  height:50rem;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width:90%;
+      }
+             
+        .PhotoPastime-column2 button{
+          display: flex;
+          width: 70%;
+          border-radius: 10px;
+          align-items: center;
+          margin-left: auto;
+          margin-right: auto;
+         
+        }
+    
+        }
+    
+     
+  
+  
+  
+  @media (611px <= width <= 699px) {
+  
+    .PhotoPastime-row2{
+      background-size: cover;
+      display: flex;
+     flex-direction: column;
+     row-gap: 1em;
+     margin-top: 5%;
+     
+   
+   }
+   .PhotoPastime-column2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      
+         width: 70%;
+        
+   
+     }
+     .PhotoPastime-column2 img{
+      height:15rem;
+     }
+     .PhotoPastime-column2 button{
+      display: flex;
+      width: 70%;
+      border-radius: 10px;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+     
+    }
+     
+     
+    
+     }
+  
+  
+  @media (550px <= width <= 610px) {
+  
+    .PhotoPastime-row2{
+      background-size: cover;
+      display: flex;
+     flex-direction: column;
+     row-gap: 1em;
+     
+   
+   }
+   .PhotoPastime-column2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        margin-top: 5%;
+        
+        
+   
+     }
+     .PhotoPastime-column2 img{
+      height:15rem;
+     }
+     .PhotoPastime-column2 button{
+      display: flex;
+      width: 70%;
+      border-radius: 10px;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+     
+    }
+     
+     
+     
+    
+    }
+  
+  
+  @media (420px <= width <= 549px) {
+  
+    .PhotoPastime-row2{
+      background-size: cover;
+      display: flex;
+     flex-direction: column;
+     row-gap: 1em;
+     margin-top: 5%;
+     
+   
+   }
+   .PhotoPastime-column2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      width:90%;
+        
+        
+   
+     }
+     .PhotoPastime-column2 img{
+      height:15rem;
+     }
+     
+     .PhotoPastime-column2 button{
+      display: flex;
+      width: 70%;
+      border-radius: 10px;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+     
+    }
+     
+    
+     }
+  
+  @media (341px <= width <= 419px) {
+  
+    .PhotoPastime-row2{
+      background-size: cover;
+      display: flex;
+     flex-direction: column;
+     row-gap: 1em;
+     
+   
+   }
+   .PhotoPastime-column2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      width:100%;
+        
+        
+   
+     }
+     .PhotoPastime-column2 img{
+      height:15rem;
+     }
+     
+     .PhotoPastime-column2 button{
+      display: flex;
+      width: 70%;
+      border-radius: 10px;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+     
+    }
+     
+    
+    }
+   
+  
+  
+  @media (280px <= width <= 340px) {
+  
+    .PhotoPastime-PhotoPastime-row2{
+      background-size: cover;
+      display: flex;
+     flex-direction: column;
+     row-gap: 1em;
+     
+   
+   }
+   .PhotoPastime-column2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      width:100%;
+        
+        
+   
+     }
+     .PhotoPastime-column2 img{
+      height:15rem;
+     }
+     
+     .PhotoPastime-column2 button{
+      display: flex;
+      width: 70%;
+      border-radius: 10px;
+      align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+     
+    }
+    
+    }

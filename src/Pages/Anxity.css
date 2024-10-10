@@ -1,0 +1,12 @@
+.memory-combine h1{
+    text-align: center;
+    font-weight: 700;
+
+}
+.memory-combine h3{
+color: orange;
+text-align: center;
+}
+.memory-column{
+    height: fit-content;
+}

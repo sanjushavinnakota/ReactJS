@@ -1,0 +1,383 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+    }
+   
+    
+.main-anecdote p{
+    width:30%;
+    font-size: 1.2rem;
+}
+    
+    .main-anecdote button{
+        width:10%;
+        background-color: 
+        #6C3231;
+        color:white;
+
+    }
+   
+        
+    
+    @media (2501px <= width <=9500px) {
+        .main-anecdote p{
+            width:30%;
+            font-size: 1.2rem;
+        }
+            
+            .main-anecdote button{
+                width:10%;
+                background-color: 
+                #6C3231;
+                color:white;
+        
+            }
+            .main-anecdote img{
+                float: right;
+                height:15rem;
+                margin-top: -3%;
+                
+                
+            }
+    }
+    @media (1501px <= width <=2500px) {
+        .main-anecdote p{
+            width:30%;
+            font-size: 1.2rem;
+        }
+            
+            .main-anecdote button{
+                width:10%;
+                background-color: 
+                #6C3231;
+                color:white;
+        
+            }
+            .main-anecdote img{
+                float: right;
+                height:20rem;
+                margin-top: -3%;
+                
+                
+            }
+    }
+    
+    @media (1150px <= width <=1500px) {
+        
+        }
+        .main-anecdote p{
+            width:50%;
+            font-size: 1rem;
+            text-align: left;
+        }
+            
+            .main-anecdote button{
+                width:10%;
+                background-color: 
+                #6C3231;
+                color:white;
+        
+            }
+            .main-anecdote img{
+                float: right;
+                height:15rem;
+                margin-top:-4%;
+
+                
+                
+                
+            }
+    
+    
+     
+    
+    @media (901px <= width <= 1149px) {
+        .main-anecdote p{
+            width:60%;
+            font-size: 1.2rem;
+            text-align: left;
+        }
+            
+            .main-anecdote button{
+                width:10%;
+                background-color: 
+                #6C3231;
+                color:white;
+        
+            }
+            .main-anecdote img{
+                float: right;
+                height:19rem;
+                margin-top:-6%;
+
+                
+                
+                
+            }
+    }
+    
+     
+            
+    
+    @media (700px <= width <= 900px) {
+    
+        .main-anecdote p{
+            width:58%;
+            font-size: 1rem;
+        }
+            
+            .main-anecdote button{
+                width:50%;
+                background-color: 
+                #6C3231;
+                color:white;
+             
+        
+            }
+            .main-anecdote img{
+                float: right;
+                height:18rem;
+                margin-top: -5%;
+                
+                
+                
+            }
+    }
+    
+    
+    
+    
+    @media (611px <= width <= 699px) {
+    
+        .main-anecdote{
+          display: grid;
+          grid-template-rows: 0.3fr 0.4fr 1fr ;
+        }
+         .main-anecdote h5{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+           text-align: center;
+      
+     
+         }
+         .main-anecdote img{
+           margin-top: 2%;
+           margin-left: auto;
+           margin-right: auto;
+           display: block;
+           width: 60%;
+         }
+         .main-anecdote h1{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+           text-align: center;
+         }
+     
+         .main-anecdote p{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 33rem;
+           text-align: center;
+          }
+         .main-anecdote button{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 23rem;
+          }
+         }
+    
+      
+       
+    
+    @media (550px <= width <= 610px) {
+      .main-anecdote{
+        display: grid;
+        grid-template-rows: 0.3fr 0.4fr 1fr ;
+      }
+       .main-anecdote h5{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+         width: 23rem;
+         text-align: center;
+    
+   
+       }
+       .main-anecdote img{
+         margin-top: 2%;
+         margin-left: auto;
+         margin-right: auto;
+         display: block;
+         width: 60%;
+       }
+       .main-anecdote h1{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+         width: 23rem;
+         text-align: center;
+       }
+   
+       .main-anecdote p{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+         width: 33rem;
+         text-align: center;
+        }
+       .main-anecdote button{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+         width: 23rem;
+        }
+         }
+    
+      
+       
+    
+    
+    @media (420px <= width <= 549px) {
+    
+      .main-anecdote{
+        display: grid;
+        grid-template-rows: 0.3fr 0.4fr 1fr ;
+      }
+       .main-anecdote h5{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+         width: 23rem;
+         text-align: center;
+    
+   
+       }
+       .main-anecdote img{
+         margin-top: 2%;
+         margin-left: auto;
+         margin-right: auto;
+         display: block;
+         width: 60%;
+       }
+       .main-anecdote h1{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+         width: 23rem;
+         text-align: center;
+       }
+   
+       .main-anecdote p{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+         width: 25rem;
+         text-align: center;
+        }
+       .main-anecdote button{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+         width: 23rem;
+        
+         }
+        }
+    
+    @media (341px <= width <= 419px) {
+     .main-anecdote{
+        display: grid;
+        grid-template-rows: 0.3fr 0.4fr 1fr ;
+      }
+       .main-anecdote h5{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+         width: 23rem;
+         text-align: center;
+    
+   
+       }
+       .main-anecdote img{
+         margin-top: 2%;
+         margin-left: auto;
+         margin-right: auto;
+         display: block;
+         width: 60%;
+       }
+       .main-anecdote h1{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+         width: 23rem;
+         text-align: center;
+       }
+   
+       .main-anecdote p{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+         width: 19rem;
+         text-align: center;
+        }
+       .main-anecdote button{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+         width: 23rem;
+        
+         }
+        }
+    
+    
+    @media (280px <= width <= 340px) {
+      
+      .main-anecdote{
+        display: grid;
+        grid-template-rows: 0.3fr 0.3fr 1fr ;
+      }
+       .main-anecdote h5{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+     
+         text-align: center;
+    
+   
+       }
+       .main-anecdote img{
+         margin-top: 2%;
+         margin-left: auto;
+         margin-right: auto;
+         display: block;
+         width: 70%;
+       }
+       .main-anecdote h1{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+
+         text-align: center;
+       }
+   
+       .main-anecdote p{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+         width: 15rem;
+         text-align: center;
+        }
+       .main-anecdote button{
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+         width: 17rem;
+        
+         }}

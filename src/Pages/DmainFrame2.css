@@ -1,0 +1,172 @@
+.d-para{
+    display: flex;
+ 
+}
+
+
+.d-para p{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+ .d-para h3{
+         display: flex;
+         position: absolute;
+         flex-direction: row;
+         width: 10%;
+         align-items: center;
+         justify-content: center;
+        text-align: center;
+       float: center;
+         font-size: 2.9rem;
+       
+        }
+        @media (1150px <= width <= 1500px) {
+            .d-para p{
+                width: 68%;
+               margin-top: 1%;
+                
+                }
+                .d-para h3{
+                width: 16%;
+                font-size: 3.1rem;
+                    text-align: center;
+                   
+                    }
+        
+             
+            }
+        
+
+@media (901px <= width <= 1149px) {
+    .d-para p{
+        width: 68%;
+       margin-top: 1%;
+        
+        }
+        .d-para h3{
+        width: 12%;
+            text-align: center;
+           
+            }
+
+     
+    }
+
+
+@media (700px <= width <= 900px) {
+
+    .d-para p{
+        width: 68%;
+       margin-top: 1%;
+        
+        }
+        .d-para h3{
+        width: 14%;
+            text-align: center;
+            
+            }
+
+
+}
+
+@media (611px <= width <= 699px) {
+
+    .d-para{
+    display: grid;
+    grid-template-rows: 0.4fr 1fr;
+   
+    }
+
+.d-para h3{
+
+  width: 100%;
+}
+
+
+
+}
+
+@media (550px <= width <= 610px) {
+
+   
+    .d-para{
+        display: grid;
+        grid-template-rows: 0.5fr 1fr;
+       
+        }
+    
+    .d-para h3{
+    
+      width: 100%;
+    }
+    
+    
+
+}
+
+@media (420px <= width <= 549px) {
+
+   
+    .d-para{
+        display: grid;
+        grid-template-rows: 0.4fr 1fr;
+       
+        }
+    
+    .d-para h3{
+    
+      width: 100%;
+    }
+    
+    
+}
+
+
+
+
+@media (341px <= width <= 419px) {
+
+
+    .d-para{
+        display: grid;
+        grid-template-rows: 0.3fr 1fr;
+       
+        }
+    
+    .d-para h3{
+    
+      width: 100%;
+    }
+    
+    
+            
+
+
+
+
+}
+
+@media (280px <= width <= 340px) {
+
+    .d-para{
+        display: grid;
+        grid-template-rows: 0.2fr 1fr;
+       
+        }
+    
+    .d-para h3{
+    
+      width: 100%;
+    }
+    
+            
+
+}
+  

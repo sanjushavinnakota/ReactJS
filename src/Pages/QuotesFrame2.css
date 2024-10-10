@@ -1,0 +1,354 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  overflow-x: hidden;
+  }
+  
+.Quotes-column img{
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%;
+
+
+  }
+  .icons{
+    color:black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+
+
+  .Quotes-column p{
+    font-size: small;
+    font-family: Roboto;
+    text-align: left;
+    
+  }
+  .Quotes-column{
+    background-color: #f8f4f4;
+display: grid;
+
+
+   width:70%;
+  text-align: center;
+  display: grid;
+ margin-left: auto;
+ margin-right: auto;
+
+  
+  
+  }
+  
+  
+  .Quotes-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ; 
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+  }
+  
+  
+  @media(width >=3501px) {
+  
+    .Quotes-row{
+      display: grid;
+     grid-template-rows: 1fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 10px;
+        height:30vw;
+        
+          }
+          .Quotes-column img{
+            width: 100%;
+            display: grid;
+         
+          
+          }
+          .quotes{
+            display: grid;
+          }
+          .Quotes-column p{
+  text-align: center;
+         font-size: 37px;
+          }
+    
+          }
+  
+  @media(2501px <= width <=3500px) {
+  
+    .Quotes-row{
+      display: grid;
+     grid-template-rows: 1fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 10px;
+        height:30vw;
+        
+          }
+          .Quotes-column img{
+            width: 100%;
+            display: grid;
+         
+          
+          }
+          .quotes{
+            display: grid;
+          }
+          .Quotes-column p{
+  text-align: center;
+         font-size: 23px;
+          }
+    
+          }
+          
+  
+  
+  
+  @media(1501px <= width <=2500px) {
+  
+    .Quotes-row{
+      display: grid;
+     grid-template-rows: 1fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 10px;
+        height:30vw;
+        
+          }
+          .Quotes-column img{
+            width: 100%;
+            display: grid;
+         
+          
+          }
+          .quotes{
+            display: grid;
+          }
+          .Quotes-column p{
+  text-align: center;
+         font-size: 21px;
+          }
+    
+          }
+          
+  
+  @media (1150px <= width <=1500px) {
+  
+    .Quotes-row{
+      display: grid;
+     grid-template-rows: 1fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 10px;
+        height:35vw;
+        
+          }
+          .Quotes-column img{
+            width: 100%;
+            display: grid;
+         
+          
+          }
+       
+          .quotes{
+            display: grid;
+          }
+    
+          }
+  
+  @media (901px <= width <= 1149px) {
+    .Quotes-row{
+      display: grid;
+     grid-template-rows: 1fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 15px;
+        height:40vw;
+        border-radius: 10px;
+        
+        
+          }
+          .Quotes-column 
+          {
+            width:90%;
+            height: fit-content;
+          }
+          .Quotes-column img{
+            width: 100%;
+            display: grid;
+         
+          
+          }
+          .icons{
+            font-size: small;
+          }
+          .quotes{
+            display: grid;
+          }
+    
+          }
+  
+  @media (700px <= width <= 900px) {
+    .Quotes-row{
+      display: grid;
+     grid-template-rows: 1fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 15px;
+        height:50vw;
+        border-radius: 10px;
+        
+        
+          }
+          .Quotes-column 
+          {
+            width:90%;
+            height: fit-content;
+          }
+          .Quotes-column img{
+            width: 100%;
+            display: grid;
+         
+          
+          }
+          .icons{
+            font-size: small;
+          }
+          .quotes{
+            display: grid;
+          }
+    
+          }
+  
+  @media (611px <= width <= 699px) {
+    .Quotes-row{
+      background-size: cover;
+      display: flex;
+flex-direction: column;
+row-gap: 30px;
+column-gap: 30px
+   
+   }
+   .Quotes-column{
+    margin-top: 10%;
+   width: 50%;
+     }
+     .Quotes-column img{
+      
+      width:100%;
+   
+     }
+     .Quotes-column p{
+  
+       text-align: center;
+     }
+  
+    
+          }
+  
+  @media (550px <= width <= 610px) {
+  
+    .Quotes-row{
+      background-size: cover;
+      display: flex;
+flex-direction: column;
+row-gap: 30px;
+column-gap: 30px
+   
+   }
+   .Quotes-column{
+    margin-top: 10%;
+   width: 50%;
+     }
+     .Quotes-column img{
+      
+      width:100%;
+   
+     }
+     .Quotes-column p{
+  
+       text-align: center;
+     }
+  
+     }
+  
+  
+  @media (420px <= width <= 549px) {
+  
+   
+    .Quotes-row{
+      background-size: cover;
+      display: flex;
+flex-direction: column;
+row-gap: 30px;
+   
+   }
+   .Quotes-column{
+row-gap: 30px;
+   width: 50%;
+     }
+     .Quotes-column img{
+      
+      width:100%;
+   
+     }
+     .Quotes-column p{
+  
+       text-align: center;
+     }
+  
+     }
+  
+  @media (341px <= width <= 419px) {
+  
+  
+
+    .Quotes-row{
+      background-size: cover;
+      display: flex;
+flex-direction: column;
+row-gap: 30px;
+
+   
+   }
+   .Quotes-column{
+margin-top: 10%;
+   width: 50%;
+
+     }
+     .Quotes-column img{
+      
+      width:100%;
+   
+     }
+     .Quotes-column p{
+  
+       text-align: center;
+     }
+  
+     }
+   
+  
+  
+  @media (280px <= width <= 340px) {
+  
+   
+    .Quotes-row{
+      background-size: cover;
+      display: flex;
+flex-direction: column;
+row-gap: 30px;
+   
+   }
+   .Quotes-column{
+    margin-top: 10%;
+   width: 50%;
+     }
+     .Quotes-column img{
+      
+      width:100%;
+   
+     }
+     .Quotes-column p{
+  
+       text-align: center;
+     }
+  
+    
+     }

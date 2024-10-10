@@ -1,0 +1,574 @@
+*{
+  padding: 0%;
+  margin: 0%;
+ 
+ 
+  }
+ 
+  .Eulogy-column img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:12rem;
+
+    
+  }
+  
+  .Eulogy-column p{
+
+    font-family: Roboto;
+    color: white;
+    line-height: 100%;
+    
+  }
+  .Eulogy-row a:active { 
+    text-decoration: none; 
+    color:white;
+  }
+
+  .Eulogy-column h3{
+  color: white;
+
+  font-family: Raleway;
+  font-weight: 800;
+
+  }
+  .Eulogy-column{
+  background-color: rgb(1, 1, 1);
+  height:21rem;
+  width:90%;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 15%;
+  font-family: Raleway;
+  display: inline-grid;
+
+
+
+ 
+  
+  
+  }
+
+  
+  .Eulogy-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ; 
+    grid-template-rows: 1fr 0.1fr ;
+   
+
+  }
+
+ 
+  .Eulogy-column button{
+    background-color:rgba(121, 121, 121, 1);
+
+    color: white;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    height:35px;
+    width:80%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+   font-family: Roboto;
+   font-size: small;
+   justify-content: center;
+    
+   }
+   
+   .heading3{
+    text-align: center;
+   }
+
+
+   @media (5001px <= width <=9999px) {
+    .Eulogy-column h5{
+      font-size:18%;
+      text-align: center;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      word-break: break-word;
+    
+      
+      }
+      
+      .Eulogy-column p{
+      font-size:10px;
+      display: grid;
+      text-align: center;
+       word-wrap: break-word;
+       white-space: pre-wrap;
+       word-break: break-word;
+      
+      }
+      .Eulogy-column{
+      height:45rem;
+      margin-left: 64%;
+      
+      }
+      .Eulogy-column img{
+      height:40rem;
+      
+      }
+      
+
+  }
+
+
+
+
+
+
+
+
+   @media (3001px <= width <=5000px) {
+    .Eulogy-column h5{
+      font-size:18px;
+      text-align: center;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      word-break: break-word;
+    
+      
+      }
+      
+      .Eulogy-column p{
+      font-size:100px;
+      display: grid;
+      text-align: center;
+       word-wrap: break-word;
+       white-space: pre-wrap;
+       word-break: break-word;
+      
+      }
+      .Eulogy-column{
+      height:33rem;
+      margin-left: 64%;
+      
+      }
+      .Eulogy-column img{
+      height:23rem;
+      
+      }
+      
+
+  }
+
+
+  @media (2501px <= width <=3000px) {
+    .Eulogy-column h5{
+      font-size:18px;
+      text-align: center;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      word-break: break-word;
+      
+      
+      }
+      
+      .Eulogy-column p{
+      font-size:12px;
+      display: grid;
+      text-align: center;
+       word-wrap: break-word;
+       white-space: pre-wrap;
+       word-break: break-word;
+      
+      }
+      .Eulogy-column{
+      height:23rem;
+      margin-left: 64%;
+      
+      }
+      .Eulogy-column img{
+      height:18rem;
+      
+      }
+      
+
+  }
+
+
+  @media (1501px <= width <=2500px) {
+
+    .Eulogy-column h5{
+      font-size:18px;
+      text-align: center;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      word-break: break-word;
+      
+      
+      }
+      
+      .Eulogy-column p{
+      font-size:12px;
+      display: grid;
+      text-align: center;
+       word-wrap: break-word;
+       white-space: pre-wrap;
+       word-break: break-word;
+      
+      }
+      .Eulogy-column{
+      height:15rem;
+      margin-left: 64%;
+      
+      }
+      .Eulogy-column img{
+      height:10rem;
+      
+      }
+      
+
+  }
+
+
+  @media (1150px <= width <=1500px) {
+.Eulogy-column h5{
+font-size:18px;
+text-align: center;
+word-wrap: break-word;
+white-space: pre-wrap;
+word-break: break-word;
+
+
+}
+
+.Eulogy-column p{
+font-size:12px;
+display: grid;
+text-align: center;
+ word-wrap: break-word;
+ white-space: pre-wrap;
+ word-break: break-word;
+
+}
+.Eulogy-column{
+
+margin-left: 64%;
+
+}
+.Eulogy-column img{
+height:10rem;
+
+}
+
+  }
+
+
+  @media (901px <= width <= 1149px) {
+    .Eulogy-column h5{
+      font-size:18px;
+     text-align: left;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      word-break: break-word;
+      text-align: center;
+      
+    
+    }
+    
+    .Eulogy-column p{
+      font-size:12px;
+      display: grid;
+      text-align: center;
+       word-wrap: break-word;
+       white-space: pre-wrap;
+       word-break: break-word;
+      line-height: 15px;
+    
+    }
+    .Eulogy-column{
+      height:17rem;
+      width:12rem;
+      display: grid;
+      margin-left: 60%;
+      margin-top: 20%;
+    }
+    .Eulogy-column img{
+      height:10rem;
+    }
+   
+  }
+
+
+      
+  @media (700px <= width <= 900px) {
+    .Eulogy-column h5{
+      font-size:18px;
+     text-align: left;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      word-break: break-word;
+      text-align: center;
+      
+    
+    }
+    
+    .Eulogy-column p{
+      font-size:12px;
+      display: grid;
+      text-align: center;
+       word-wrap: break-word;
+       white-space: pre-wrap;
+       word-break: break-word;
+      line-height: 15px;
+    
+    }
+    .Eulogy-column{
+      height:15rem;
+      width:10rem;
+      display: grid;
+      margin-left:60%;
+      
+    }
+    .Eulogy-column img{
+      height:8rem;
+    }
+   
+
+        
+
+
+  }
+
+
+
+  @media (611px <= width <= 699px) {
+
+    .Eulogy-row{
+         
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    
+    
+        }
+       
+        .Eulogy-column {
+        position: relative;
+        justify-content: center;
+        width:50%;
+       height:17rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
+     
+        }
+        .Eulogy-column p{
+          
+          text-align: center;
+         
+        }
+      
+        
+        
+  .Eulogy-column img{
+  width:50%;
+  height: 50%;
+  margin-top: 3%;
+  
+  }
+ 
+  
+      }
+  @media (550px <= width <= 610px) {
+    
+
+    .Eulogy-row{
+         
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    
+    
+        }
+       
+        .Eulogy-column {
+        position: relative;
+        justify-content: center;
+        width:60%;
+       height:17rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
+     
+        }
+        .Eulogy-column p{
+          
+          text-align: center;
+         
+        }
+      
+        
+        
+  .Eulogy-column img{
+  width:50%;
+  height: 50%;
+  margin-top: 3%;
+  
+  }
+ 
+
+  }
+
+   
+
+
+  
+
+
+  @media (420px <= width <= 549px) {
+
+    .Eulogy-row{
+         
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    
+    
+        }
+       
+        .Eulogy-column {
+        position: relative;
+        justify-content: center;
+        width:60%;
+       height:17rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
+     
+        }
+        .Eulogy-column p{
+          
+          text-align: center;
+         
+        }
+      
+        
+        
+  .Eulogy-column img{
+  width:50%;
+  height: 50%;
+  margin-top: 3%;
+  
+  }
+ 
+
+  }
+
+  @media (341px <= width <= 419px) {
+    .Eulogy-row{
+         
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    
+    
+        }
+       
+        .Eulogy-column {
+        position: relative;
+        justify-content: center;
+        width:70%;
+       height:17rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
+     
+        }
+        .Eulogy-column p{
+          
+          text-align: center;
+         
+        }
+      
+        
+        
+  .Eulogy-column img{
+  width:50%;
+  height: 50%;
+  margin-top: 3%;
+  
+  }
+ 
+
+
+
+  }
+
+  @media (280px <= width <= 340px) {
+
+    .Eulogy-row{
+         
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    
+    
+        }
+       
+        .Eulogy-column {
+        position: relative;
+        justify-content: center;
+        width:80%;
+       height:17rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
+     
+        }
+        .Eulogy-column p{
+          
+          text-align: center;
+         
+        }
+      
+        
+        
+  .Eulogy-column img{
+  width:50%;
+  height: 50%;
+  margin-top: 3%;
+  
+  }
+ 
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   
+  
+         
+     
+     
+       
+  
+
+         
+  
+  
+        
+  
+           

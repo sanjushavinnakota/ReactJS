@@ -1,0 +1,823 @@
+
+
+.memory-category button{
+  background-color:white;
+  height:3rem;
+  width:6rem;
+  border-style: solid;
+  border-color: orange;
+
+  border-radius: 10px;
+
+}
+
+.memory-combine{
+margin-left: auto;
+margin-right: auto;
+}
+
+.memory-column {
+  float: left;
+  width: 90%;
+  padding: 10px;
+border-color: none;
+margin-top: 5%;
+   border-style:solid;
+  height:150px;
+  float:left;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+  background-color: rgb(251, 248, 248);
+
+}
+
+.memory-column h2{
+font-size:larger;
+
+}
+.memory-column button{
+background-color: white;
+
+border-radius: 10px;
+
+}
+.memory-column img{
+  width: 130px;
+  float: right;
+
+
+  
+
+}
+/* Clear floats after the columns */
+.memory-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.category{
+  display: flex;
+
+}
+.category button{
+ display: inline-flex;
+ border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (8001px <= width <=9999px) {
+  .memory-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  
+  
+  .memory-column {
+    float: left;
+    width: 90%;
+    padding: 10px;
+  
+     border-style:solid;
+    height:150px;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+  }
+  .memory-column h2{
+  font-size:larger;
+  
+  }
+  .memory-column button{
+  
+  
+  border-radius: 10px;
+  
+  }
+  .memory-column img{
+    width: 130px;
+    float: right;
+  
+  
+    
+  
+  }
+  /* Clear floats after the columns */
+  .memory-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .category{
+    display: flex;
+  
+  }
+  .category button{
+   display: inline-flex;
+   border-radius: 10px;
+  
+  }
+  
+  
+  
+  
+
+  
+
+
+}
+
+
+
+
+
+@media (6001px <= width <=8000px) {
+  .memory-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  
+  .memory-column {
+    float: left;
+    width: 90%;
+    padding: 10px;
+  
+     border-style:solid;
+    height:150px;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+  }
+  .memory-column h2{
+  font-size:larger;
+  
+  }
+  .memory-column button{
+  
+  
+  border-radius: 10px;
+  
+  }
+  .memory-column img{
+    width: 130px;
+    float: right;
+  
+  
+    
+  
+  }
+  /* Clear floats after the columns */
+  .memory-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .category{
+    display: flex;
+  
+  }
+  .category button{
+   display: inline-flex;
+   border-radius: 10px;
+  
+  }
+  
+  
+  
+  
+  
+
+
+}
+
+
+
+  
+@media (5001px <= width <=6000px) {
+  .memory-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  
+  .memory-column {
+    float: left;
+    width: 90%;
+    padding: 10px;
+  
+     border-style:solid;
+    height:150px;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+  }
+  .memory-column h2{
+  font-size:larger;
+  
+  }
+  .memory-column button{
+  
+  
+  border-radius: 10px;
+  
+  }
+  .memory-column img{
+    width: 130px;
+    float: right;
+  
+  
+    
+  
+  }
+  /* Clear floats after the memory-columns */
+  .memory-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .category{
+    display: flex;
+  
+  }
+  .category button{
+   display: inline-flex;
+   border-radius: 10px;
+  
+  }
+  
+  
+  
+  
+  
+
+}
+@media (4001px <= width <=5000px) {
+
+  .memory-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  
+  .memory-column {
+    float: left;
+    width: 90%;
+    padding: 10px;
+  
+     border-style:solid;
+    height:150px;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+  }
+  .memory-column h2{
+  font-size:larger;
+  
+  }
+  .memory-column button{
+  
+  
+  border-radius: 10px;
+  
+  }
+  .memory-column img{
+    width: 130px;
+    float: right;
+  
+  
+    
+  
+  }
+  /* Clear floats after the memory-columns */
+  .memory-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .category{
+    display: flex;
+  
+  }
+  .category button{
+   display: inline-flex;
+   border-radius: 10px;
+  
+  }
+  
+  
+  
+  
+  
+
+}
+
+@media (2501px <= width <=4000px) {
+  .memory-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  
+  .memory-column {
+    float: left;
+    width: 90%;
+    padding: 10px;
+     border-style:solid;
+    height:169px;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+  }
+  .memory-column h2{
+  font-size:30px;
+  
+  }
+  .memory-column p{
+    font-size:25px;
+  
+    }
+  .memory-column button{
+  font-size: larger;
+  height:50px;
+  border-radius: 10px;
+  
+  }
+  .memory-column img{
+    width: 130px;
+    float: right;
+  
+  
+    
+  
+  }
+  /* Clear floats after the columns */
+  .memory-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .category{
+    display: flex;
+  
+  }
+  .category button{
+   display: inline-flex;
+   border-radius: 10px;
+  
+  }
+  
+  
+  
+  
+  
+  
+   }
+
+@media (1901px <= width <=2500px) {
+  .memory-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  
+  .memory-column {
+    float: left;
+    width: 90%;
+    padding: 10px;
+  
+     border-style:solid;
+    height:150px;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+  }
+  .memory-column h2{
+  font-size:larger;
+  
+  }
+  .memory-column button{
+  
+  
+  border-radius: 10px;
+  
+  }
+  .memory-column img{
+    width: 130px;
+    float: right;
+  
+  
+    
+  
+  }
+  /* Clear floats after the memory-columns */
+  .memory-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .category{
+    display: flex;
+  
+  }
+  .category button{
+   display: inline-flex;
+   border-radius: 10px;
+  
+  }
+  
+  
+  
+  
+  
+ 
+   }
+@media (1501px <= width <=1900px) {
+
+  .memory-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  
+  .memory-column {
+    float: left;
+    width: 90%;
+    padding: 10px;
+  
+     border-style:solid;
+    height:150px;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+  }
+  .memory-column h2{
+  font-size:larger;
+  
+  }
+  .memory-column button{
+  
+  
+  border-radius: 10px;
+  
+  }
+  .memory-column img{
+    width: 130px;
+    float: right;
+  
+  
+    
+  
+  }
+  /* Clear floats after the columns */
+  .memory-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .category{
+    display: flex;
+  
+  }
+  .category button{
+   display: inline-flex;
+   border-radius: 10px;
+  
+  }
+  
+  
+  
+  
+  
+   }
+  
+  @media (1150px <= width <=1500px) {
+  
+    .memory-row{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    
+ 
+    .memory-column {
+      float: left;
+      width: 90%;
+      padding: 10px;
+    
+       border-style:solid;
+      height:150px;
+      float:left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+    
+    }
+    .memory-column h2{
+    font-size:larger;
+    
+    }
+    .memory-column button{
+    
+    
+    border-radius: 10px;
+    
+    }
+    .memory-column img{
+      width: 130px;
+      float: right;
+    
+    
+      
+    }
+    .memory-row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .category{
+      display: flex;
+    
+    }
+    .category button{
+     display: inline-flex;
+     border-radius: 10px;
+    
+    }
+    
+    
+    
+    
+    
+  }
+  @media (901px <= width <= 1149px) {
+    .memory-row{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    
+    .memory-column {
+      float: left;
+      width: 100%;
+      padding: 10px;
+    
+       border-style:solid;
+      height:150px;
+      float:left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+    
+    }
+    .memory-column h2{
+    font-size:larger;
+    
+    }
+    .memory-column button{
+    
+    
+    border-radius: 10px;
+    
+    }
+    .memory-column img{
+      width: 130px;
+      float: right;
+    
+    
+      
+    }
+    .memory-row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .category{
+      display: flex;
+    
+    }
+    .category button{
+     display: inline-flex;
+     border-radius: 10px;
+    
+    }
+    
+    
+  
+  }
+
+
+
+  @media (700px <= width <= 900px) {
+  
+  .memory-row{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .memory-column {
+    float: left;
+    width: 70%;
+    padding: 10px;
+  
+     border-style:solid;
+    height:180px;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+  }
+  
+  }
+
+
+  @media (611px <= width <= 699px) {
+  
+    .memory-row{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .memory-column {
+      float: left;
+      width: 80%;
+      padding: 10px;
+    
+       border-style:solid;
+      height:180px;
+      float:left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+    
+    }
+
+  }
+  @media (550px <= width <= 610px) {
+    .memory-row{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .memory-column {
+      float: left;
+      width: 80%;
+      padding: 10px;
+    
+       border-style:solid;
+      height:180px;
+      float:left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+    
+    }
+    .category button{
+    width:125px;
+    }
+   
+  }
+  
+  @media (420px <= width <= 549px) {
+    .memory-row{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .memory-column {
+      float: left;
+      width: 100%;
+      padding: 10px;
+    display: flex;
+    flex-direction: column;
+       border-style:solid;
+      height:100%;
+      float:left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      text-align: center;
+  
+    }
+    .memory-column img{
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .memory-column button{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .memory-category{
+      width: 10rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+ 
+}
+  @media (341px <= width <= 419px) {
+  
+    .memory-row{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .memory-column {
+      float: left;
+      width: 100%;
+      padding: 10px;
+    display: flex;
+    flex-direction: column;
+       border-style:solid;
+      height:100%;
+      float:left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      text-align: center;
+    margin-top: 10%;
+    }
+    .memory-column img{
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .memory-category{
+      width: 10rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+   
+  }
+  
+  @media (280px <= width <= 340px) {
+    .memory-row{
+      display: grid;
+      grid-template-columns: 1fr;
+      height:280rem;
+    }
+    .memory-column {
+      float: left;
+      width: 100%;
+      padding: 10px;
+    display: flex;
+    flex-direction: column;
+       border-style:solid;
+      height:100%;
+      float:left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      text-align: center;
+    margin-top: 10%;
+    }
+    .memory-column img{
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .memory-category{
+      width: 10rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  

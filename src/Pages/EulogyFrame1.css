@@ -1,0 +1,469 @@
+.Eulogy-data{
+  font-family: Playfair Display;
+  color: #FACBAF;
+
+}
+@media (7001px <= width <9999px) {
+
+  .Eulogy-container-two-columns{
+    background-color: black;
+    height:230rem;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 0.1fr;
+    column-gap: 10%;
+ 
+   }
+   .Eulogy-image{
+  width:70%;
+ float: right;
+ 
+   }
+  .Eulogy-data{
+   float:right;
+   color: #FACBAF;
+ 
+  } 
+  .Eulogy-data h1{
+   font-size: 28rem;
+   width:160rem;
+  }
+  .Eulogy-data p{
+ font-size: 2rem;
+ 
+  }
+  
+ }
+@media (5001px <= width <=7000px) {
+
+  .Eulogy-container-two-columns{
+    background-color: black;
+    height:180rem;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 0.1fr;
+    column-gap: 10%;
+ 
+   }
+   .Eulogy-image{
+  width:90%;
+ float: right;
+ 
+   }
+  .Eulogy-data{
+   float:right;
+   color: #FACBAF;
+ 
+  } 
+  .Eulogy-data h1{
+   font-size: 28rem;
+   width:160rem;
+  }
+  .Eulogy-data p{
+ font-size: 2rem;
+ 
+  }
+  
+ }
+
+
+
+
+
+
+
+@media (3001px <= width <=5000px) {
+
+  .Eulogy-container-two-columns{
+    background-color: black;
+    height:85rem;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 0.1fr;
+    column-gap: 10%;
+ 
+   }
+   .Eulogy-image{
+  width:60%;
+ float: right;
+ 
+   }
+  .Eulogy-data{
+   float:right;
+   color: #FACBAF;
+ 
+  } 
+  .Eulogy-data h1{
+   font-size: 8rem;
+   width:50rem;
+  }
+  .Eulogy-data p{
+ font-size: 2rem;
+ 
+  }
+  
+ }
+
+
+@media (1801px <= width <=3000px) {
+
+  .Eulogy-container-two-columns{
+    background-color: black;
+    height:60rem;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 0.1fr;
+    column-gap: 10%;
+ 
+   }
+   .Eulogy-image{
+  width:70%;
+ float: right;
+ 
+   }
+  .Eulogy-data{
+   float:right;
+   color: #FACBAF;
+ 
+  } 
+  .Eulogy-data h1{
+   font-size: 8rem;
+   width:50rem;
+  }
+  .Eulogy-data p{
+ font-size: 2rem;
+ 
+  }
+  
+ }
+
+
+
+
+
+
+@media (1501px <= width <=1800px) {
+
+  .Eulogy-container-two-columns{
+    background-color: black;
+    height:33rem;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 0.1fr;
+    column-gap: 10%;
+ 
+   }
+   .Eulogy-image{
+  width:64%;
+ float: right;
+ 
+   }
+  .Eulogy-data{
+   float:right;
+   color: #FACBAF;
+ 
+  } 
+  .Eulogy-data h1{
+   font-size: 6rem;
+   width:30rem;
+  }
+  .Eulogy-data p{
+ font-size: larger;
+ 
+  }
+  
+ }
+
+@media (1150px <= width <=1500px) {
+
+  .Eulogy-container-two-columns{
+   background-color: black;
+   height:33rem;
+   display: grid;
+   align-items: center; 
+   grid-template-columns: 1fr 1fr 0.1fr;
+   column-gap: 10%;
+
+  }
+  .Eulogy-image{
+ width:64%;
+float: right;
+
+  }
+ .Eulogy-data{
+  float:right;
+  color: #FACBAF;
+
+ } 
+ .Eulogy-data h1{
+  font-size: 6rem;
+  width:30rem;
+ }
+ .Eulogy-data p{
+font-size: larger;
+
+ }
+}
+@media (901px <= width <= 1149px) {
+  .Eulogy-container-two-columns{
+    background-color: black;
+    height:33rem;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 0.1fr;
+    column-gap: 10%;
+ 
+   }
+   .Eulogy-image{
+  width:21rem;
+ float: right;
+ 
+ 
+   }
+  .Eulogy-data{
+   float:right;
+   color: #FACBAF;
+ 
+  } 
+  .Eulogy-data h1{
+   font-size: 5rem;
+   width:30rem;
+  }
+  .Eulogy-data p{
+ font-size: larger;
+ 
+  }
+ }
+@media (700px <= width <= 900px) {
+.Eulogy-container-two-columns{
+    background-color: rgb(11, 11, 11);
+    height:37rem;
+    overflow-y: hidden;
+
+  }
+  .Eulogy-image{
+   width:35%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+
+  }
+ .Eulogy-data{
+  text-align: center;
+  color: #FACBAF;
+ 
+ } 
+ .Eulogy-content{
+  width:60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+ }
+ .Eulogy-heading{
+  font-size: 4rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+ }
+}
+@media (611px <= width <= 699px) {
+  .Eulogy-container-two-columns{
+    background-color: rgb(11, 11, 11);
+    height:37rem;
+    overflow-y: hidden;
+
+  }
+  .Eulogy-image{
+   width:50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+
+  }
+ .Eulogy-data{
+  text-align: center;
+  color: #FACBAF;
+ 
+ } 
+ .Eulogy-content{
+  width:60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+ }
+ .Eulogy-heading{
+  font-size: 3rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+ }
+}
+@media (550px <= width <= 610px) {
+
+  .Eulogy-container-two-columns{
+    background-color: rgb(11, 11, 11);
+    height:38rem;
+    overflow-y: hidden;
+
+  }
+  .Eulogy-image{
+   width:50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+
+  }
+  .Eulogy-data{
+    text-align: center;
+    color: #FACBAF;
+   
+   } 
+   .Eulogy-content{
+    width:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  
+  
+   }
+   .Eulogy-heading{
+    font-size: 4rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  
+   }
+}
+
+@media (420px <= width <= 549px) {
+
+  .Eulogy-container-two-columns{
+    background-color: rgb(11, 11, 11);
+    height:35rem;
+    overflow-y: hidden;
+
+  }
+  .Eulogy-image{
+   width:50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+
+  }
+  .Eulogy-data{
+    text-align: center;
+    color: #FACBAF;
+   
+   } 
+   .Eulogy-content{
+    width:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  
+  
+   }
+   .Eulogy-heading{
+    font-size: 4rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  
+   }
+}
+@media (341px <= width <= 419px) {
+  *{
+    overflow-x: hidden;
+  }
+
+  .Eulogy-container-two-columns{
+    background-color: rgb(11, 11, 11);
+    height:30rem;
+    overflow-y: hidden;
+
+  }
+  .Eulogy-image{
+   width:50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+
+  }
+  .Eulogy-data{
+    text-align: center;
+    color: #FACBAF;
+   
+   } 
+   .Eulogy-content{
+    width:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  
+  
+   }
+   .Eulogy-heading{
+    font-size: 3rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  
+   }
+}
+
+@media (280px <= width <= 340px) {
+  *{
+    overflow-x: hidden;
+  }
+  .Eulogy-container-two-columns{
+    background-color: rgb(11, 11, 11);
+    height:25rem;
+    overflow-y: hidden;
+
+  }
+  .Eulogy-image{
+   width:50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+
+  }
+  .Eulogy-data{
+    text-align: center;
+    color: #FACBAF;
+   
+   } 
+   .Eulogy-content{
+    width:70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  
+  
+   }
+   .Eulogy-heading{
+    font-size: 3rem;
+
+    margin-left: auto;
+    margin-right: auto;
+  
+   }
+}

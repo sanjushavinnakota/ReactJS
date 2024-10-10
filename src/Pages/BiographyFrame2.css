@@ -1,0 +1,126 @@
+.Biography-row{
+    display: grid;
+    grid-template-columns: 0.7fr 0.2fr 1fr 1fr;
+}
+
+.Biography-row img{
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+@media (698px <= width <=799px) {
+
+    .Biography-row{
+display: flex;
+flex-direction: column;
+
+    }
+    .Biography-column h3,p{
+        text-align: center;
+    }
+    .Biography-column img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+
+}
+
+@media (599px <= width <=699px) {
+
+    .Biography-row{
+display: flex;
+flex-direction: column;
+
+    }
+    .Biography-column h3,p{
+        text-align: center;
+    }
+    .Biography-column img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+
+}
+@media (499px <= width <=598px) {
+
+    .Biography-row{
+display: flex;
+flex-direction: column;
+
+    }
+    .Biography-column h3,p{
+        text-align: center;
+    }
+    .Biography-column img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+
+}
+@media (399px <= width <=498px) {
+
+    .Biography-row{
+display: flex;
+flex-direction: column;
+
+    }
+    .Biography-column h3,p{
+        text-align: center;
+    }
+    .Biography-column img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+
+}
+@media (280px <= width <=398px) {
+
+    .Biography-row{
+display: flex;
+flex-direction: column;
+
+    }
+    .Biography-column h3,p{
+        text-align: center;
+    }
+    .Biography-column img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+
+}
+@media (168px <= width <=279px) {
+
+    .Biography-row{
+display: flex;
+flex-direction: column;
+
+    }
+    .Biography-column h3,p{
+        text-align: center;
+    }
+    .Biography-column img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+
+}

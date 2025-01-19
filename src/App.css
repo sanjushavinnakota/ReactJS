@@ -1,10 +1,12 @@
-
-
-.container-fluid{
-  background-color: black;
+/*@import "./index.scss";
+.bg-color-1 {
+  background-color: $color_9 !important;
 }
-.nav-link,
-.navbar-brand,
-.navbar-menu{
-color:rgb(244, 246, 247)
-  }
+
+.bg-color-2 {
+  background-color: $color_13 !important;
+}
+
+.bg-color-3 {
+  background-color: $color_3 !important;
+}*/

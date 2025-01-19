@@ -1,0 +1,38 @@
+{
+    "Quotes": [
+        {
+            "img_url": "./img/hema1.png",
+            "description": "My request to you is that you try to follow the authorities there, the GBC, etc co-operate nicely with them. Our movement is based on love and trust, so if we do not cooperate then how is that love and trust? Follow all of the rules and regulations very strictly without deviation."
+        },
+        {
+            "img_url": "./img/circle.png",
+            "description": "The nine devotional processes, beginning with sravana and kirtana, can all be attained at once if one simply chants the holy name of the lord offenselesly."
+        },
+        {
+            "img_url": "./img/circle.png",
+            "description": "The nine devotional processes, beginning with sravana and kirtana, can all be attained at once if one simply chants the holy name of the lord offenselesly."
+        },
+        {
+            "img_url": "./img/modi.png",
+            "description": "The nine devotional processes, beginning with sravana and kirtana, can all be attained at once if one simply chants the holy name of the lord offenselesly."
+        }
+    ],
+    "QuickFacts": [
+        {
+            "img_url": "./img/about1.png",
+            "description": "About us description 1."
+        },
+        {
+            "img_url": "./img/about2.png",
+            "description": "About us description 2."
+        },
+        {
+            "img_url": "./img/about1.png",
+            "description": "About us description 1."
+        },
+        {
+            "img_url": "./img/about1.png",
+            "description": "About us description 1."
+        }
+    ]
+}

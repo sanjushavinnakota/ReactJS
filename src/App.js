@@ -1,35 +1,30 @@
-
 import React from 'react';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import Main from './Pages/Main'
-import Poetryby from './Pages/Poetryby'
-import Poetryby1 from './Pages/Poetryby1'
-import Navbar from './Pages/Navbar'
-import Who from './Pages/Who'
-import Eulogies from './Pages/Eulogies'
-import Eulogies1 from './Pages/Eulogies1'
-import Temples from './Pages/Temples'
-import PhotoPasttime from './Pages/PhotoPasttime'
-import Disappearence from './Pages/Disappearence'
-import PrabhupadaAnalogies from './Pages/PrabhupadaAnalogies'
-import PrabhupadaStories from './Pages/PrabhupadaStories'
-import Quotes from './Pages/Quotes'
-import Memories from './Pages/Memories'
-import Biography from './Pages/Biography'
-import QuickFacts from './Pages/QuickFacts'
-import Prophecies from './Pages/Prophecies'
-import Poetryfor from './Pages/Poetryfor'
-import DisappearMain from './Pages/DisappearMain'
-import Anxity from './Pages/Anxity'
-import Anxity1 from './Pages/Anxity1'
-import Footer from './Pages/Footer'
-import Searchbar from './Pages/Searchbar'
-import Rarepicturesmain12 from './Pages/Rarepicturesmain12'
-import Rarepictures from './Pages/Rarepictures'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import Main from './Pages/Main/Main'
+import Poetryby from './Pages/Poetryby/Poetryby'
+import Poetryby1 from './Pages/Poetryby1/Poetryby1'
+import Navbar from './components/Navbar/Navbar'
+import Who from './Pages/Who/Who'
+import Eulogies from './Pages/Eulogies/Eulogies'
+import Eulogies1 from './Pages/Eulogies1/Eulogies1'
+import Temples from './Pages/Temple/Temples'
+import PhotoPasttime from './Pages/PhotoPasttime/PhotoPasttime'
+import Disappearence from './Pages/Disappearence/Disappearence';
+import PrabhupadaAnalogies from './Pages/Analogy/PrabhupadaAnalogies';
+import PrabhupadaStories from './Pages/PrabhupadaStories/PrabhupadaStories'
+import Quotes from './Pages/Quotes/Quotes'
+import Memories from './Pages/Memories/Memories'
+import Biography from './Pages/Biography/Biography'
+import QuickFacts from './Pages/Facts/QuickFacts'
+import Prophecies from './Pages/Prophecies/Prophecies'
+import Poetryfor from './Pages/Poetryfor/Poetryfor'
+import DisappearMain from './Pages/DisappearMain/DisappearMain';
+import Anxity from './Pages/Anxity/Anxity';
+import Anxity1 from './Pages/Anxity/Anxity1';
+import Footer from './components/Footer/Footer'
+import Searchbar from './components/Searchbar/Searchbar'
+import Rarepicturesmain12 from './Pages/Rarepictures12/Rarepicturesmain12'
+import Rarepictures from './Pages/Rarepictures/Rarepictures'
 
 
 
@@ -42,19 +37,22 @@ function App() {
 
 <BrowserRouter>
 <Navbar />
+
 <Routes>
 
 
 
 
-
+<Route index element={<Main />} />
+  <Route path ="/main" element={<Main />} />
+  
   <Route index element={<Who />} />
   <Route path ="/who" element={<Who />} />
 
   <Route index element={< Rarepictures />} />
   <Route path ="/Rarepictures" element={< Rarepictures />} />
 
-  <Route index element={<Rarepicturesmain12 />} />
+  <Route index element={<Rarepicturesmain12 />} /> 
   <Route path ="/Rarepicturesmain12" element={<Rarepicturesmain12 />} />
     
   <Route index element={<Anxity />} />
@@ -101,8 +99,6 @@ function App() {
   <Route index element={<Quotes />} />
   <Route path ="/Quotes" element={<Quotes />} />
 
-  <Route index element={<Main />} />
-  <Route path ="/main" element={<Main />} />
 
   <Route index element={< Disappearence/>} />
   <Route path ="/Disappearence" element={< Disappearence />} />

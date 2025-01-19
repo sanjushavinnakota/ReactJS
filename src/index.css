@@ -1,13 +1,29 @@
+/*$theme_color: #081a51;
+$font_family_1: 'Roboto';
+$font_family_2: 'Raleway';
+$border_radius_1: 10px;
+$border_radius_2: 15px;
+$border_radius_3:29.06px;
+$border_radius_4:50px;
+$color_1:#FF8A40;
+$color_2:#FACBAF;
+$color_3: #F6F3EC;
+$color_4: #1B1C1E;
+$color_5: #d3e7f9;
+$color_6: #0352e9;
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+  
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      margin: 0;
+      padding: 0;
+    }
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+*/
+  

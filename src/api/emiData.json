@@ -1,0 +1,27 @@
+[
+    {
+        "img_url":"./img/indra1.png",
+        "name":"Indira Gandhi praises Srila Prabhupada!",
+        "description":"Srila Prabhupada is a very pure saint."
+       
+    },
+    {
+        "img_url":"./img/venka.png",
+        "name":"Muppavarapu Venkaiah Naidu",
+        "description":"Srila Prabhupada (one of our great cultural ambassador) spread the message across the globe not confined to one country or one continent. The life of Swami Prabhupada, who had participated actively in Mahatma Gandhi's....."
+
+
+    },
+    {
+        "img_url":"./img/hema1.png",
+        "name":"Hema Malini",
+        "description":"I would like to facelift Mathura as per by Srila Prabhupada wishes."
+       
+    },
+    {
+        "img_url":"./img/veera.png",
+        "name":"Dr. Veerendra Heggade",
+        "description":"It is very easy to preach and propagate Krishna Consciousness to the people of our country, because they naturally have faith and belief in god and are already god conscious. But it is not so easy to preach pure God consciousness..."
+      
+    }
+]

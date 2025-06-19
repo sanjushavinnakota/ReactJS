@@ -1,0 +1,47 @@
+.Disappearance{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 2rem; 
+  padding: 2rem;
+  justify-items: center; 
+}
+.Disappearance .card-container{
+ width:21rem;
+}
+.Disappearance .description{
+font-family: Roboto;
+width:21rem;
+font-size: 14px;
+font-family: italic;
+
+}
+/* .Disappearance .image{
+ 
+} */
+.Disappearance .card-body{
+  display: flex;
+  flex-direction: column;
+}
+.button{
+  background-color: black;
+  color:white
+}
+@media only screen and (max-width: 1160px) {
+  .Disappearance{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 2rem; 
+      padding: 2rem;
+      justify-items: center; 
+  }
+}
+  
+@media only screen and (max-width: 765px) {
+  .Disappearance{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+      gap: 2rem; 
+      padding: 2rem;
+      justify-items: center; 
+  }
+}

@@ -1,0 +1,921 @@
+
+   
+    .quotes{
+      display: grid;
+    }
+    
+    div.video{
+      background-color:white;
+      height: 30rem;
+    
+    }
+    
+   
+.reference-para{
+  float: left;
+  width: 50%;
+}
+
+.ref-buttons{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+grid-template-columns: repeat(n, 1fr);
+    gap: 10px;
+
+  float: right;
+}
+.reference{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: gray;
+  margin: 1%;
+  
+  
+}
+.reference video{
+ display:flex;
+ justify-content: center;
+ text-align: center;
+ margin-top: 3%;
+
+ }
+ .divine{
+ text-align: center;
+
+ margin-top: 5%;
+ margin: 2%;
+ 
+ }
+ .divine h1{
+  float: left;
+  width: 30%;
+  text-align: left;
+
+  
+}
+.divine p{
+  float: right;
+  width: 51%;
+text-align: left;
+
+}
+.journey{
+ 
+  margin: 2%;
+}
+
+.journey p{
+  width: 40%;
+}
+.journey h3{
+  width: 40%;
+}
+
+.who-img{
+  display: flex;
+ justify-content: center;
+margin-top: 5%;
+margin: 2%;
+
+}
+.eleven-years{
+  text-align: center;
+  border-style: solid;
+  border-color: gray;
+  margin-top: 5%;
+  margin: 2%;
+
+}
+.guiding{
+ 
+  margin: 2%;
+}
+.objective{
+ 
+  margin: 2%;
+
+}
+.earlylife{
+  margin: 2%;
+}
+
+
+
+@media (8001px <= width <=9999px) {
+  .video{
+    width: 100%;
+   display:flex;
+   justify-content: center;
+   text-align: center;
+   }
+   .journey{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+   }
+     .journey h3{
+      width: 90%;
+    
+     }
+     .journey p{
+      width: 100%;
+    
+     }
+    
+  
+}
+
+
+@media (6001px <= width <=8000px) {
+  .video{
+    width: 100%;
+   display:flex;
+   justify-content: center;
+   text-align: center;
+   }
+   .journey{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+   }
+     .journey h3{
+      width: 90%;
+    
+     }
+     .journey p{
+      width: 100%;
+    
+     }
+   
+    
+  
+}
+
+
+
+  
+@media (5001px <= width <=6000px) {
+ 
+  .video{
+    width: 100%;
+   display:flex;
+   justify-content: center;
+   text-align: center;
+   }
+   .journey{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+   }
+     .journey h3{
+      width: 90%;
+    
+     }
+     .journey p{
+      width: 100%;
+    
+     }
+    
+   
+  
+
+}
+@media (4001px <= width <=5000px) {
+
+  .video{
+    width: 100%;
+   display:flex;
+   justify-content: center;
+   text-align: center;
+   }
+   .journey{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+   }
+     .journey h3{
+      width: 90%;
+    
+     }
+     .journey p{
+      width: 100%;
+    
+     }
+  
+
+}
+
+@media (2501px <= width <=4000px) {
+  .video{
+    width: 100%;
+   display:flex;
+   justify-content: center;
+   text-align: center;
+   }
+   .journey{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+   }
+     .journey h3{
+      width: 90%;
+    
+     }
+     .journey p{
+      width: 100%;
+    
+     }
+     
+  
+   }
+
+@media (1901px <= width <=2500px) {
+ 
+
+  .video{
+    width: 100%;
+   display:flex;
+   justify-content: center;
+   text-align: center;
+   }
+   .journey{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+   }
+     .journey h3{
+      width: 90%;
+    
+     }
+     .journey p{
+      width: 100%;
+    
+     }
+    
+   }
+@media (1501px <= width <=1900px) {
+ 
+ 
+  .video iframe{
+    width:60%;
+    height:415px;
+   display:flex;
+   justify-content: center;
+   text-align: center;
+   }
+   .journey{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+   }
+     .journey h3{
+      width: 90%;
+    
+     }
+     .journey p{
+      width: 100%;
+    
+     }
+    
+    
+      .column2{
+       display:block;
+       margin-left: auto;
+       margin-right: auto;
+   
+
+
+ 
+
+}
+  
+  
+   }
+  
+  @media (1150px <= width <=1500px) {
+  
+   
+
+    .reference-para{
+      float: left;
+    }
+    
+    .reference{
+      margin-left: auto;
+      margin-right: auto;
+
+    
+    }
+    .reference h5{
+      line-height: 3rem;
+
+    }
+
+    .video{
+      width: 100%;
+     display:flex;
+     justify-content: center;
+     text-align: center;
+     background-color: aqua;
+
+     }
+   .journey{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+   }
+     .journey h3{
+      width: 90%;
+    
+     }
+     .journey p{
+      width: 100%;
+    
+     }
+    
+      .column2{
+       display:block;
+       margin-left: auto;
+       margin-right: auto;
+
+}
+.divine h1{
+line-height: 3.5rem;
+}
+ .journey h3{
+line-height: 3rem;
+
+}
+.eleven-years h3{
+  line-height: 3rem;
+} 
+.guiding h3{
+  line-height: 3rem;
+} 
+.recent h3{
+  line-height: 3rem;
+}
+
+
+}
+  @media (901px <= width <= 1149px) {
+   
+   
+    .ref-buttons{
+      width: 90%;
+      
+          }
+          .video{
+            width: 100%;
+           display:flex;
+           justify-content: center;
+           text-align: center;
+           }
+           .objective{
+            text-align: center;
+           }
+           .guiding{
+            text-align: center;
+           }
+           .journey{
+            text-align: center;
+           justify-content:center;
+           }
+           .journey p
+          {
+        width: 100%;
+           }
+           .journey h3{
+            width: 100%;
+            text-align: center;
+        
+           }
+           .journey img{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+
+           }
+           .earlylife{
+            text-align: center;
+           }
+           .divine{
+        
+        display: flex;
+        flex-direction: column;
+        
+           }
+           .divine p{
+            width: 100%;
+            text-align: center;
+           }
+           .divine h1{
+            width: 100%;
+            text-align: center;
+           }
+          .journey img{
+            width: 50%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+
+          }
+         
+            .column2{
+             display:block;
+             margin-left: auto;
+             margin-right: auto;
+      width: 90%;
+      
+        margin-top: 8%;
+        border-style: solid;
+       border-color: white;
+       color:white;
+       background-color: black;
+      
+      }
+    }
+
+
+
+  @media (700px <= width <= 900px) {
+   
+    .reference{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  
+     }
+      
+      .ref-buttons{
+        width: 40rem;
+        
+            }
+            .video{
+              width: 100%;
+             display:flex;
+             justify-content: center;
+             text-align: center;
+             }
+             .objective{
+              text-align: center;
+             }
+             .guiding{
+              text-align: center;
+             }
+             .journey{
+              text-align: center;
+             justify-content:center;
+             }
+             .journey p
+            {
+          width: 100%;
+             }
+             .journey h3{
+              width: 100%;
+              text-align: center;
+             }
+             .journey img{
+              display:block;
+              margin-left: auto;
+              margin-right: auto;
+
+             }
+             .earlylife{
+              text-align: center;
+             }
+             .divine{
+          
+          display: flex;
+          flex-direction: column;
+          
+             }
+             .divine p{
+              width: 100%;
+              text-align: center;
+             }
+             .divine h1{
+              width: 100%;
+              text-align: center;
+             }
+            .journey img{
+              width: 50%;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+
+            }
+           
+             .column2{
+              height: 23rem;
+             }
+
+             .Recently-column2 button{
+             margin-top: auto;
+             }
+          
+  }
+
+
+  @media (611px <= width <= 699px) {
+  
+   
+   
+   .reference{
+    display: flex;
+    flex-direction:column;
+  }
+     .reference-para{
+  width: 100%;
+  text-align: center;
+     }
+     .ref-buttons{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   
+   
+     }
+     
+     .video{
+      width: 100%;
+     display:flex;
+     justify-content: center;
+     text-align: center;
+     }
+     .objective{
+      text-align: center;
+     }
+     .guiding{
+      text-align: center;
+     }
+     .journey{
+      text-align: center;
+     justify-content:center;
+     }
+     .journey p
+    {
+  width: 100%;
+     }
+     .journey h3{
+      width: 100%;
+      text-align: center;
+     }
+     .earlylife{
+      text-align: center;
+     }
+     .divine{
+  
+  display: flex;
+  flex-direction: column;
+  
+     }
+     .divine p{
+      width: 100%;
+      text-align: center;
+     }
+     .divine h1{
+      width: 100%;
+      text-align: center;
+     }
+    .journey img{
+      width: 100%;
+    }
+   
+  }
+  @media (550px <= width <= 610px) {
+   
+    
+   
+     .reference{
+      display: flex;
+      flex-direction:column;
+    }
+       .reference-para{
+    width: 80%;
+    text-align: center;
+       }
+       .ref-buttons{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+     
+       }
+       .video{
+        width: 100%;
+       display:flex;
+       justify-content: center;
+       text-align: center;
+       }
+       .objective{
+        text-align: center;
+       }
+       .guiding{
+        text-align: center;
+       }
+       .journey{
+        text-align: center;
+       justify-content:center;
+       }
+       .journey p
+      {
+    width: 100%;
+       }
+       .journey h3{
+        width: 100%;
+        text-align: center;
+       }
+       .earlylife{
+        text-align: center;
+       }
+       .divine{
+    
+    display: flex;
+    flex-direction: column;
+    
+       }
+       .divine p{
+        width: 100%;
+        text-align: center;
+       }
+       .divine h1{
+        width: 100%;
+        text-align: center;
+       }
+      .journey img{
+        width: 100%;
+      }
+   
+    
+    }
+  
+  @media (420px <= width <= 549px) {
+   
+    .reference{
+      display: flex;
+      flex-direction:column;
+    }
+       .reference-para{
+    width: 80%;
+    text-align: center;
+       }
+       .ref-buttons{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+     
+       }
+       .video{
+        width: 100%;
+       display:flex;
+       justify-content: center;
+       text-align: center;
+       }
+       .objective{
+        text-align: center;
+       }
+       .guiding{
+        text-align: center;
+       }
+       .journey{
+        text-align: center;
+       justify-content:center;
+       }
+       .journey p
+      {
+    width: 100%;
+       }
+       .journey h3{
+        width: 100%;
+        text-align: center;
+       }
+       .earlylife{
+        text-align: center;
+       }
+       .divine{
+    
+    display: flex;
+    flex-direction: column;
+    
+       }
+       .divine p{
+        width: 100%;
+        text-align: center;
+       }
+       .divine h1{
+        width: 100%;
+        text-align: center;
+       }
+      .journey img{
+        width: 100%;
+      }
+    }
+  @media (341px <= width <= 419px) {
+   
+    
+     .reference{
+      display: flex;
+      flex-direction:column;
+    }
+       .reference-para{
+    width: 80%;
+    text-align: center;
+       }
+       .ref-buttons{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+     
+       }
+       .video{
+        width: 100%;
+       display:flex;
+       justify-content: center;
+       text-align: center;
+       }
+       .objective{
+        text-align: center;
+       }
+       .guiding{
+        text-align: center;
+       }
+       .journey{
+        text-align: center;
+       justify-content:center;
+       }
+       .journey p
+      {
+    width: 100%;
+       }
+       .journey h3{
+        width: 100%;
+        text-align: center;
+       }
+       .earlylife{
+        text-align: center;
+       }
+       .divine{
+    
+    display: flex;
+    flex-direction: column;
+    
+       }
+       .divine p{
+        width: 100%;
+        text-align: center;
+       }
+       .divine h1{
+        width: 100%;
+        text-align: center;
+       }
+      .journey img{
+        width: 100%;
+      }
+     
+    
+  }
+  
+  @media (280px <= width <= 340px) {
+   
+   
+
+.reference{
+  display: flex;
+  flex-direction:column;
+}
+   .reference-para{
+width: 100%;
+text-align: center;
+   }
+   .ref-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+   }
+   .video{
+    width: 100%;
+   display:flex;
+   justify-content: center;
+   text-align: center;
+   }
+   .objective{
+    text-align: center;
+   }
+   .guiding{
+    text-align: center;
+   }
+   .journey{
+    text-align: center;
+   justify-content:center;
+   }
+   .journey p
+  {
+width: 100%;
+   }
+   .journey h3{
+    width: 100%;
+    text-align: center;
+   }
+   .earlylife{
+    text-align: center;
+   }
+   .divine{
+
+display: flex;
+flex-direction: column;
+
+   }
+   .divine p{
+    width: 100%;
+    text-align: center;
+   }
+   .divine h1{
+    width: 100%;
+    text-align: center;
+   }
+  .journey img{
+    width: 100%;
+  }
+ 
+}
+  @media (162px <= width <= 279px) {
+   
+   
+    .objective{
+      text-align: center;
+
+     }
+     .guiding{
+      text-align: center;
+     }
+     .journey{
+      text-align: center;
+     justify-content:center;
+     }
+     .journey p
+    {
+  width: 100%;
+     }
+     .journey h3{
+      width: 100%;
+      text-align: center;
+     }
+     .earlylife{
+      text-align: center;
+     }
+     .divine{
+  
+  display: flex;
+  flex-direction: column;
+  
+     }
+     .divine p{
+      width: 100%;
+      text-align: center;
+     }
+     .divine h1{
+      width: 100%;
+      text-align: center;
+     }
+    .journey img{
+      width: 100%;
+    }
+.reference{
+  display: flex;
+  flex-direction:column;
+}
+   .reference-para{
+width: 100%;
+text-align: center;
+   }
+   .ref-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+   }
+   div.video{
+    width: 100%;
+   }
+  
+  }

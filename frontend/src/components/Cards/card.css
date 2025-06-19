@@ -1,0 +1,27 @@
+.icons{
+    display: flex;
+    flex-direction: row;
+   
+}
+.like .bookmark{
+    margin-right: auto;
+}
+.card-container{
+box-shadow: 1px 1px 20px rgb(170, 170, 169);
+border-radius: 1rem;
+display: flex;
+flex-direction: column;
+padding: 2rem;
+}
+.desc-button-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  
+  .button-group.inline {
+    display: flex;
+    align-items: center;
+  }
+  

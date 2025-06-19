@@ -1,0 +1,71 @@
+.emi {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  justify-items: center;
+}
+.emi .card-container {
+  background-color: black;
+  color: white;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Ensures equal height cards if used inside a grid */
+  padding: 1rem;
+  gap:1rem
+}
+.emi .description {
+  font-family: Roboto;
+  font-size: 12px;
+  flex-grow: 1;
+  margin-bottom: 1rem;
+  white-space: pre-line;
+  overflow-wrap: break-word;
+}
+.emi .image {
+  width: 17rem;
+  height: 8rem;
+  display: block;
+  margin: auto;
+}
+.emi .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.emi .bt1 {
+  background-color: rgba(246, 246, 246, 1);
+  color: rgb(15, 15, 15);
+  margin-top: auto;
+  width: 16rem;
+  height: 2.3rem;
+  justify-content: center;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media only screen and (max-width: 1160px) {
+  .emi{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 2rem; 
+      padding: 2rem;
+      justify-items: center; 
+  }
+}
+  
+@media only screen and (max-width: 765px) {
+  .emi{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+      gap: 2rem; 
+      padding: 2rem;
+      justify-items: center; 
+  }
+}

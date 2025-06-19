@@ -1,0 +1,45 @@
+.poetry{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem; 
+    padding: 2rem;
+    justify-items: center; 
+}
+.poetry .card-container .poetry .card-body{
+   display: flex;
+   flex-direction: column;
+}
+.poetry .image{
+    width:20rem;
+    height:18rem;
+}
+.poetry .combo{
+    background-color: #FFFFFF;
+}
+.poetry .bt1{
+    border-radius: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(221, 86, 93, 1));
+   width: 10px;
+   height:35px
+    
+
+}
+@media only screen and (max-width: 1160px) {
+    .poetry{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 2rem; 
+        padding: 2rem;
+        justify-items: center; 
+    }
+}
+    
+@media only screen and (max-width: 765px) {
+    .poetry{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 2rem; 
+        padding: 2rem;
+        justify-items: center; 
+    }
+}

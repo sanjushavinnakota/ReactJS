@@ -1,0 +1,51 @@
+.main-video {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 900;
+  font-size: 5rem;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  height:36rem;
+  row-gap:4rem
+}
+
+.main-iframe {
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  gap:0.5rem;
+  justify-content:center;
+}
+.main-iframe h6 {
+  color: rgba(121, 121, 121, 1);
+  height:1rem
+
+}
+
+.main-iframe h5 {
+  white-space: pre-line;
+  max-width:21rem;
+  font-size: large;
+  
+
+}
+.iframe-des{
+  background-color: rgba(38, 38, 38, 1);
+  text-align: left;
+
+}
+.main-video button {
+  background-color: #6c3231;
+  color: white;
+  height: 3rem;
+  width: 7rem;
+  font-size: medium;
+  font-family: Roboto;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+}

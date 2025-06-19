@@ -1,0 +1,33 @@
+.Quotes-Quickfacts{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:3rem;
+  justify-content: center;
+  padding:2rem
+}
+.Quotes-Quickfacts .description{
+font-family: Roboto;
+}
+.Quotes-Quickfacts .image{
+display: block;
+margin: auto;
+}
+@media only screen and (max-width: 1160px) {
+  .Quotes-Quickfacts{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 2rem; 
+      padding: 2rem;
+      justify-items: center; 
+  }
+}
+  
+@media only screen and (max-width: 765px) {
+  .Quotes-Quickfacts{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+      gap: 2rem; 
+      padding: 2rem;
+      justify-items: center; 
+  }
+}

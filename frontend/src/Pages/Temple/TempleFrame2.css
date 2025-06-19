@@ -1,0 +1,66 @@
+.temple{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 2rem; 
+  padding: 2rem;
+  justify-items: center; 
+}
+.temple .card-container{
+ width:21rem;
+}
+.temple .description{
+font-family: Roboto;
+width:21rem;
+font-size: 14px;
+font-family: italic;
+
+}
+.temple .image{
+  width:18rem;
+  height:12rem;
+  display: block;
+  margin: auto;
+  border: solid;
+  border-color: rgb(176, 177, 177);
+
+}
+.temple .card-body{
+  display: flex;
+  flex-direction: column;
+}
+.button-group button {
+  background-color: black;
+  color:white
+}
+.button-group .btn1{
+  background-color: rgb(221, 33, 33);
+  width: 5rem;
+}
+@media only screen and (max-width: 1490px) {
+  .temple{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 2rem; 
+      padding: 2rem;
+      justify-items: center; 
+  }
+}
+@media only screen and (max-width: 1160px) {
+  .temple{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 2rem; 
+      padding: 2rem;
+      justify-items: center; 
+  }
+}
+  
+@media only screen and (max-width: 765px) {
+  .temple{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+      gap: 2rem; 
+      padding: 2rem;
+      justify-items: center; 
+  }
+}
